@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Пожертвования";
+}
+
+<section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0A0014] to-[#1A0C2D] px-4">
+    <div class="bg-black bg-opacity-80 backdrop-blur-md p-10 rounded-2xl shadow-lg text-center max-w-xl w-full">
+        <h1 class="text-4xl font-bold text-white mb-6 font-['Merriweather']">Поддержите Quiet Planet!</h1>
+
+        <p class="text-lg text-gray-400 mb-8 font-['Roboto']" id="donationMessage">
+            Твои пожертвования помогают нам развивать проект, <span class="text-secondary font-semibold">Гость</span>!
+        </p>
+
+        <button onclick="makeDonation()"
+                class="cta-button bg-lavaRed hover:bg-opacity-90 text-white text-lg font-medium py-3 px-6 rounded-button transition-all shadow-md">
+            Сделать пожертвование
+        </button>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
+
+<script>
+    async function fetchWithToken(url, options = {}) {
+        const token = sessionStorage.getItem("jwtToken");
+        if (!token) {
+            console.warn("No token found, redirecting to /login");
+            return null;
+        }
+
+        options.headers = {
+            ...options.headers,
+            "Authorization": `Bearer ${token}`
+        };
+
+        const response = await fetch(url, options);
+        if (response.status === 401) {
+            sessionStorage.removeItem("jwtToken");
+            window.location.href = "/login";
+            return null;
+        }
+        return response;
+    }
+
+    async function makeDonation() {
+        const token = sessionStorage.getItem('jwtToken');
+        if (!token) {
+            window.location.href = '/login';
+            return;
+        }
+        alert('Платёжная система в разработке!');
+    }
+
+    document.addEventListener("DOMContentLoaded", async () => {
+        const msg = document.getElementById("donationMessage");
+        if (!msg) return;
+
+        const res = await fetchWithToken("/donat/secure");
+        if (!res || !res.ok) return;
+
+        const data = await res.json();
+        const userName = DOMPurify.sanitize(data.user || "Гость");
+        msg.innerHTML = `Твои пожертвования помогают нам развивать проект, <span class="text-secondary font-semibold">${userName}</span>!`;
+    });
+</script>

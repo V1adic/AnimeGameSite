@@ -1,0 +1,292 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/AnimeGameSite.2zsbibut06.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AnimeGameSite.2zsbibut06.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2zsbibut06"},{"Name":"integrity","Value":"sha256-khr8J2F1Bt2Rej1L2MBro3iZyzLPw0mmrAKnKHeqy7M="},{"Name":"label","Value":"_content/AnimeGameSite/AnimeGameSite.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022khr8J2F1Bt2Rej1L2MBro3iZyzLPw0mmrAKnKHeqy7M=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 07:55:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/AnimeGameSite.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AnimeGameSite.2zsbibut06.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-khr8J2F1Bt2Rej1L2MBro3iZyzLPw0mmrAKnKHeqy7M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022khr8J2F1Bt2Rej1L2MBro3iZyzLPw0mmrAKnKHeqy7M=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 07:55:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/header.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\header.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/IbDxMoDK\u002BqHtPjnTIR3uTzmS54\u002BRpinIF3INwI99d0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3878"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/IbDxMoDK\u002BqHtPjnTIR3uTzmS54\u002BRpinIF3INwI99d0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 11:13:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/header.kccuvgy0e1.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\header.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kccuvgy0e1"},{"Name":"integrity","Value":"sha256-/IbDxMoDK\u002BqHtPjnTIR3uTzmS54\u002BRpinIF3INwI99d0="},{"Name":"label","Value":"_content/AnimeGameSite/css/header.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3878"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/IbDxMoDK\u002BqHtPjnTIR3uTzmS54\u002BRpinIF3INwI99d0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 11:13:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.6ztz4gdtpw.woff2">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.woff2'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6ztz4gdtpw"},{"Name":"integrity","Value":"sha256-fqkLvHxQW5jdfToImm\u002BjIGfjUxUBkpUc7bBeJoIJNs8="},{"Name":"label","Value":"_content/AnimeGameSite/css/remixicon.woff2"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"176812"},{"Name":"Content-Type","Value":"font/woff2"},{"Name":"ETag","Value":"\u0022fqkLvHxQW5jdfToImm\u002BjIGfjUxUBkpUc7bBeJoIJNs8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.7trw228kfl.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7trw228kfl"},{"Name":"integrity","Value":"sha256-y15II8cm9bp77g\u002Bqd\u002BfoSMt1/6ypmcnLQufzt6MyjuE="},{"Name":"label","Value":"_content/AnimeGameSite/css/remixicon.ttf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"569976"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022y15II8cm9bp77g\u002Bqd\u002BfoSMt1/6ypmcnLQufzt6MyjuE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.eot">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.eot'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v72Ik/F7HSJpohd0H2QNlNjVPt6xtUD\u002BBTdCsPt/ar0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"570148"},{"Name":"Content-Type","Value":"application/vnd.ms-fontobject"},{"Name":"ETag","Value":"\u0022v72Ik/F7HSJpohd0H2QNlNjVPt6xtUD\u002BBTdCsPt/ar0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.j38vru5kz9.eot">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.eot'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j38vru5kz9"},{"Name":"integrity","Value":"sha256-v72Ik/F7HSJpohd0H2QNlNjVPt6xtUD\u002BBTdCsPt/ar0="},{"Name":"label","Value":"_content/AnimeGameSite/css/remixicon.eot"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"570148"},{"Name":"Content-Type","Value":"application/vnd.ms-fontobject"},{"Name":"ETag","Value":"\u0022v72Ik/F7HSJpohd0H2QNlNjVPt6xtUD\u002BBTdCsPt/ar0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rptEBX2hyyUfjP9UTj4TXbAu9V4AHZm/p3HTh\u002BikIdc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"173476"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rptEBX2hyyUfjP9UTj4TXbAu9V4AHZm/p3HTh\u002BikIdc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:59:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.min.es7dr23n1z.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"es7dr23n1z"},{"Name":"integrity","Value":"sha256-rptEBX2hyyUfjP9UTj4TXbAu9V4AHZm/p3HTh\u002BikIdc="},{"Name":"label","Value":"_content/AnimeGameSite/css/remixicon.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"173476"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rptEBX2hyyUfjP9UTj4TXbAu9V4AHZm/p3HTh\u002BikIdc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:59:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.ttf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.ttf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y15II8cm9bp77g\u002Bqd\u002BfoSMt1/6ypmcnLQufzt6MyjuE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"569976"},{"Name":"Content-Type","Value":"application/x-font-ttf"},{"Name":"ETag","Value":"\u0022y15II8cm9bp77g\u002Bqd\u002BfoSMt1/6ypmcnLQufzt6MyjuE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.woff">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.woff'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zaBdwbyyn5YzhRMQ3AbwHYdkxWO9wJ4Xyk\u002BAGHFFj78="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"242720"},{"Name":"Content-Type","Value":"application/font-woff"},{"Name":"ETag","Value":"\u0022zaBdwbyyn5YzhRMQ3AbwHYdkxWO9wJ4Xyk\u002BAGHFFj78=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.woff2">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.woff2'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fqkLvHxQW5jdfToImm\u002BjIGfjUxUBkpUc7bBeJoIJNs8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"176812"},{"Name":"Content-Type","Value":"font/woff2"},{"Name":"ETag","Value":"\u0022fqkLvHxQW5jdfToImm\u002BjIGfjUxUBkpUc7bBeJoIJNs8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/remixicon.xf9w9gw39g.woff">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\remixicon.woff'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xf9w9gw39g"},{"Name":"integrity","Value":"sha256-zaBdwbyyn5YzhRMQ3AbwHYdkxWO9wJ4Xyk\u002BAGHFFj78="},{"Name":"label","Value":"_content/AnimeGameSite/css/remixicon.woff"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"242720"},{"Name":"Content-Type","Value":"application/font-woff"},{"Name":"ETag","Value":"\u0022zaBdwbyyn5YzhRMQ3AbwHYdkxWO9wJ4Xyk\u002BAGHFFj78=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:55:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/swiper-bundle.min.10wfuut1gc.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\swiper-bundle.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"10wfuut1gc"},{"Name":"integrity","Value":"sha256-P4pBKLpKWM\u002BN\u002BOJsCTos\u002BtOOj\u002BMjovzfVLP0I6fand0="},{"Name":"label","Value":"_content/AnimeGameSite/css/swiper-bundle.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22443"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P4pBKLpKWM\u002BN\u002BOJsCTos\u002BtOOj\u002BMjovzfVLP0I6fand0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:24:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/css/swiper-bundle.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\swiper-bundle.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P4pBKLpKWM\u002BN\u002BOJsCTos\u002BtOOj\u002BMjovzfVLP0I6fand0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"22443"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022P4pBKLpKWM\u002BN\u002BOJsCTos\u002BtOOj\u002BMjovzfVLP0I6fand0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:24:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/favicon.61n19gt1b8.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"61n19gt1b8"},{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="},{"Name":"label","Value":"_content/AnimeGameSite/favicon.ico"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 11:14:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/favicon.ico">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 11:14:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/html/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TgeCyi0O5BUm\u002BncTvrQPe3qDbhC9\u002BAr/JumeKyJrTEg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"42269"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022TgeCyi0O5BUm\u002BncTvrQPe3qDbhC9\u002BAr/JumeKyJrTEg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 11:35:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/html/index.me8792f8t8.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\html\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"me8792f8t8"},{"Name":"integrity","Value":"sha256-TgeCyi0O5BUm\u002BncTvrQPe3qDbhC9\u002BAr/JumeKyJrTEg="},{"Name":"label","Value":"_content/AnimeGameSite/html/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42269"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022TgeCyi0O5BUm\u002BncTvrQPe3qDbhC9\u002BAr/JumeKyJrTEg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 11:35:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/cosmos1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\cosmos1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DrpWQ5XjMY2GbQw2k5he6s3mjyosRXuh3naCfegTG\u002BU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4438739"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DrpWQ5XjMY2GbQw2k5he6s3mjyosRXuh3naCfegTG\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 09:54:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/cosmos1.mz3jr4upls.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\cosmos1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mz3jr4upls"},{"Name":"integrity","Value":"sha256-DrpWQ5XjMY2GbQw2k5he6s3mjyosRXuh3naCfegTG\u002BU="},{"Name":"label","Value":"_content/AnimeGameSite/images/MainPage/cosmos1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4438739"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DrpWQ5XjMY2GbQw2k5he6s3mjyosRXuh3naCfegTG\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 09:54:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/cosmos2.byl5w701wm.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\cosmos2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"byl5w701wm"},{"Name":"integrity","Value":"sha256-nSWXmOVsjbeeOQH4/Iy8bd6n0XFNr9IPoEi1\u002BMBY2iE="},{"Name":"label","Value":"_content/AnimeGameSite/images/MainPage/cosmos2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6827385"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nSWXmOVsjbeeOQH4/Iy8bd6n0XFNr9IPoEi1\u002BMBY2iE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 10:07:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/cosmos2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\cosmos2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nSWXmOVsjbeeOQH4/Iy8bd6n0XFNr9IPoEi1\u002BMBY2iE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6827385"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022nSWXmOVsjbeeOQH4/Iy8bd6n0XFNr9IPoEi1\u002BMBY2iE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 10:07:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/cosmos3.37wld05955.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\cosmos3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"37wld05955"},{"Name":"integrity","Value":"sha256-P1MRbqw7tVZvZf8Fl16FV2eIrIEgBERBCU6LFhiqeqk="},{"Name":"label","Value":"_content/AnimeGameSite/images/MainPage/cosmos3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4174739"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022P1MRbqw7tVZvZf8Fl16FV2eIrIEgBERBCU6LFhiqeqk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 11:20:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/cosmos3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\cosmos3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P1MRbqw7tVZvZf8Fl16FV2eIrIEgBERBCU6LFhiqeqk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4174739"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022P1MRbqw7tVZvZf8Fl16FV2eIrIEgBERBCU6LFhiqeqk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Jun 2025 11:20:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/hat.jna7fij15t.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\hat.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jna7fij15t"},{"Name":"integrity","Value":"sha256-UWd1NsJGJWL4RE/uRpNKEfUlXw4Xw1AuiPxq1VvQy3g="},{"Name":"label","Value":"_content/AnimeGameSite/images/MainPage/hat.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2365611"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UWd1NsJGJWL4RE/uRpNKEfUlXw4Xw1AuiPxq1VvQy3g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 11:25:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/hat.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\hat.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UWd1NsJGJWL4RE/uRpNKEfUlXw4Xw1AuiPxq1VvQy3g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"2365611"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022UWd1NsJGJWL4RE/uRpNKEfUlXw4Xw1AuiPxq1VvQy3g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 11:25:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/team-member1.gtbdprqbem.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\team-member1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gtbdprqbem"},{"Name":"integrity","Value":"sha256-7B2MdGK3CZbLnpWQ0Z4Z1k3sBAaKsBO0PF4UthBXajY="},{"Name":"label","Value":"_content/AnimeGameSite/images/MainPage/team-member1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66995"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227B2MdGK3CZbLnpWQ0Z4Z1k3sBAaKsBO0PF4UthBXajY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 10:07:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/team-member1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\team-member1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7B2MdGK3CZbLnpWQ0Z4Z1k3sBAaKsBO0PF4UthBXajY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"66995"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00227B2MdGK3CZbLnpWQ0Z4Z1k3sBAaKsBO0PF4UthBXajY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 10:07:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/team-member2.40zue1x48p.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\team-member2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"40zue1x48p"},{"Name":"integrity","Value":"sha256-tI4t8pXMHIEf8fRhVsy\u002Bvk7gF/Nbt\u002BgJFlqvCzSEXPs="},{"Name":"label","Value":"_content/AnimeGameSite/images/MainPage/team-member2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"130872"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tI4t8pXMHIEf8fRhVsy\u002Bvk7gF/Nbt\u002BgJFlqvCzSEXPs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 02:31:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/team-member2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\team-member2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tI4t8pXMHIEf8fRhVsy\u002Bvk7gF/Nbt\u002BgJFlqvCzSEXPs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"130872"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022tI4t8pXMHIEf8fRhVsy\u002Bvk7gF/Nbt\u002BgJFlqvCzSEXPs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 19 Jun 2025 02:31:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/team-member3.a6h6940j48.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\team-member3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a6h6940j48"},{"Name":"integrity","Value":"sha256-jmo3SajBDxHOe0d0tYdG9\u002Bp2K0f8WucI/0yTir5OGA0="},{"Name":"label","Value":"_content/AnimeGameSite/images/MainPage/team-member3.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"109075"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jmo3SajBDxHOe0d0tYdG9\u002Bp2K0f8WucI/0yTir5OGA0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 10:15:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/images/MainPage/team-member3.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\MainPage\team-member3.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jmo3SajBDxHOe0d0tYdG9\u002Bp2K0f8WucI/0yTir5OGA0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"109075"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jmo3SajBDxHOe0d0tYdG9\u002Bp2K0f8WucI/0yTir5OGA0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 17 Jun 2025 10:15:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/admin.4kof1l10cf.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4kof1l10cf"},{"Name":"integrity","Value":"sha256-7LBEJTlO3\u002BmDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE="},{"Name":"label","Value":"_content/AnimeGameSite/js/admin.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8906"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227LBEJTlO3\u002BmDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 07:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/admin.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7LBEJTlO3\u002BmDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8906"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227LBEJTlO3\u002BmDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 07:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/BigInteger.min.buqhvpqvcq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\BigInteger.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"buqhvpqvcq"},{"Name":"integrity","Value":"sha256-3XoJn0tjzAOLmO5AfAlxSkqXbu77RNZg4P1esethQNA="},{"Name":"label","Value":"_content/AnimeGameSite/js/BigInteger.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25944"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00223XoJn0tjzAOLmO5AfAlxSkqXbu77RNZg4P1esethQNA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 11:19:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/BigInteger.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\BigInteger.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3XoJn0tjzAOLmO5AfAlxSkqXbu77RNZg4P1esethQNA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"25944"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00223XoJn0tjzAOLmO5AfAlxSkqXbu77RNZg4P1esethQNA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 06 Jun 2025 11:19:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/script.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 07:29:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/script.kj6mgja9lq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\script.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kj6mgja9lq"},{"Name":"integrity","Value":"sha256-oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0="},{"Name":"label","Value":"_content/AnimeGameSite/js/script.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 07:29:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/sha256.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sha256.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AxUz3svRVqfHed9vS\u002BbDifBEq0OFUwxQK6GBUcq4Bow="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"11320"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AxUz3svRVqfHed9vS\u002BbDifBEq0OFUwxQK6GBUcq4Bow=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 14:37:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/sha256.min.p5nfogrn67.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\sha256.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p5nfogrn67"},{"Name":"integrity","Value":"sha256-AxUz3svRVqfHed9vS\u002BbDifBEq0OFUwxQK6GBUcq4Bow="},{"Name":"label","Value":"_content/AnimeGameSite/js/sha256.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11320"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022AxUz3svRVqfHed9vS\u002BbDifBEq0OFUwxQK6GBUcq4Bow=\u0022"},{"Name":"Last-Modified","Value":"Mon, 16 Jun 2025 14:37:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/signalr.min.8zb1dpva3y.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\signalr.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8zb1dpva3y"},{"Name":"integrity","Value":"sha256-HGwre49z6/rHMKejjOTqKMufNzhhzGD43CoP0Ih7W5s="},{"Name":"label","Value":"_content/AnimeGameSite/js/signalr.min.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53276"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022HGwre49z6/rHMKejjOTqKMufNzhhzGD43CoP0Ih7W5s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 05:56:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/signalr.min.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\signalr.min.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HGwre49z6/rHMKejjOTqKMufNzhhzGD43CoP0Ih7W5s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"53276"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022HGwre49z6/rHMKejjOTqKMufNzhhzGD43CoP0Ih7W5s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 05:56:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 11:14:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/site.xtxxf3hu2r.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/AnimeGameSite/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 31 May 2025 11:14:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/tailwindcss.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\tailwindcss.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aU\u002BfY9W3dOy7xvcafX2nGIELyXsd1df7z0qC239jHck="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"478798"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aU\u002BfY9W3dOy7xvcafX2nGIELyXsd1df7z0qC239jHck=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:37:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AnimeGameSite/js/tailwindcss.vyvjcvm7mo.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\tailwindcss.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vyvjcvm7mo"},{"Name":"integrity","Value":"sha256-aU\u002BfY9W3dOy7xvcafX2nGIELyXsd1df7z0qC239jHck="},{"Name":"label","Value":"_content/AnimeGameSite/js/tailwindcss.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"478798"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aU\u002BfY9W3dOy7xvcafX2nGIELyXsd1df7z0qC239jHck=\u0022"},{"Name":"Last-Modified","Value":"Sun, 22 Jun 2025 14:37:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

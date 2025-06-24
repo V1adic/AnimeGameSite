@@ -1,0 +1,169 @@
+﻿/* Header Styles */
+.header {
+    background-color: #121212;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #DED1B7;
+    text-decoration: none;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+    .header-links a {
+        color: #DED1B7;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+
+        .header-links a:hover {
+            color: #FFCCCB;
+        }
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.auth-button {
+    background-color: transparent; /* Прозрачный фон */
+    color: #ffffff; /* Белый текст */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+    .auth-button:hover {
+        color: #FFCCCB; /* Розовый при наведении */
+        transform: translateY(-2px);
+    }
+
+/* Hamburger Menu */
+.hamburger {
+    display: none; /* Скрыт на десктопе */
+    background-color: transparent; /* Прозрачный фон */
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    color: #ffffff; /* Белая иконка */
+}
+
+    .hamburger i {
+        font-size: 24px; /* Размер иконки */
+        transition: color 0.3s ease;
+    }
+
+    .hamburger:hover i {
+        color: #FFCCCB; /* Розовый при наведении */
+    }
+
+    .hamburger.active i {
+        color: #FFCCCB; /* Розовый при активном состоянии */
+    }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #121212;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    min-width: 150px;
+}
+
+    .dropdown-menu.active {
+        display: block;
+        animation: slideIn 0.3s ease forwards;
+    }
+
+    .dropdown-menu a,
+    .dropdown-menu button {
+        display: block;
+        padding: 10px 15px;
+        color: #DED1B7;
+        text-decoration: none;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .dropdown-menu a:hover,
+        .dropdown-menu button:hover {
+            background-color: #3C0470;
+        }
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .header-links {
+        display: none;
+    }
+
+        .header-links.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background-color: #121212;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            animation: slideIn 0.3s ease forwards;
+        }
+
+            .header-links.active a {
+                padding: 10px 0;
+                font-size: 18px;
+            }
+
+    .hamburger {
+        display: block; /* Показываем гамбургер на мобильных */
+    }
+
+    .auth-buttons {
+        display: none;
+    }
+
+        .auth-buttons.active {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px 20px;
+        }
+}

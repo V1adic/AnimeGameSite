@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiet Planet</title>
+    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+    <script src="/js/tailwindcss.js"></script>
+    <script>tailwind.config={theme:{extend:{colors:{primary:'#6B46C1',secondary:'#9F7AEA',oceanBlue:'#4834D4',lavaRed:'#B83280'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'8px','button':'8px'}}}}</script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="/css/remixicon.min.css" rel="stylesheet">
+    <!-- Подключение Remix Icon -->
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="header-logo font-bold text-white hover:text-secondary transition">Quiet Planet</a>
+        <nav class="header-links flex gap-6 text-white" id="navLinks">
+            <a href="/" class="!text-white hover:text-secondary transition">Главная</a>
+            <a href="/donat" class="!text-white hover:text-secondary transition">Эксклюзив</a>
+            <a href="/help" class="!text-white hover:text-secondary transition">Помощь</a>
+            <a href="/contacts" class="!text-white hover:text-secondary transition">Контакты</a>
+        </nav>
+        <div class="auth-section">
+            <!-- Контейнеры для динамического переключения -->
+            @{
+                var path = Context.Request.Path.Value?.ToLower();
+                var onLoginPage = path == "/login";
+                var onRegisterPage = path == "/register";
+            }
+
+            <div class="auth-buttons" id="authButtons">
+                @if (!onLoginPage)
+                {
+                    <button class="auth-button" onclick="window.location.href='/login'">Логин</button>
+                }
+                @if (!onRegisterPage)
+                {
+                    <button class="auth-button" onclick="window.location.href='/register'">Регистрация</button>
+                }
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Открыть меню" style="display: none;">
+                <i class="ri-menu-line ri-lg"></i>
+            </button>
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="/donat">Задонатить</a>
+                <a href="/settings">Настройки</a>
+                <a href="/api/login/logout">Выйти</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-[#121212] py-12">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-12">
+                <div class="mb-8 md:mb-0">
+                    <h2 class="text-3xl font-['Pacifico'] text-white mb-4">Quiet Planet!</h2>
+                    <p class="text-gray-400 max-w-md">На самом деле возможно все</p>
+                </div>
+                <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12">
+                    <div>
+                        <h4 class="text-white font-bold mb-4">Связь</h4>
+                        <ul class="space-y-5">
+                            <li><a href="#" class="text-gray-400 hover:text-white">О нас</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Контакты</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Поддержка</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 mb-4 md:mb-0">© 2025 Quiet Planet!. Все права защищены.</p>
+                <div class="flex space-x-6">
+                    <a href="https://vk.com/" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-vk-line ri-lg"></i>
+                        </div>
+                    </a>
+                    <a href="https://telegram.org/" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-telegram-line ri-lg"></i>
+                        </div>
+                    </a>
+                    <a href="https://discord.com/" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-discord-line ri-lg"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-youtube-line ri-lg"></i>
+                        </div>
+                    </a>
+                    <a href="https://store.steampowered.com/" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-steam-line ri-lg"></i>
+                        </div>
+                    </a>
+                    <a href="https://x.com/" class="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+                        <div class="w-10 h-10 flex items-center justify-center">
+                            <i class="ri-twitter-line ri-lg"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const logoutLink = document.querySelector('a[href="/api/login/logout"]');
+            if (logoutLink) {
+                logoutLink.addEventListener('click', async function (event) {
+                    event.preventDefault(); // Предотвращаем переход по ссылке
+
+                    try {
+                        const token = sessionStorage.getItem('jwtToken');
+                        const response = await fetch('/api/login/logout', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Authorization': `Bearer ${token}`
+                            }
+                        });
+
+                        if (response.ok) {
+                            // Удаляем токен и IV из Session Storage
+                            sessionStorage.removeItem('jwtToken');
+                            sessionStorage.removeItem('iv');
+
+                            // Принудительное обновление страницы
+                            window.location.reload(true);
+                        }
+                    } catch (error) {
+                        alert('Произошла ошибка при выходе.');
+                    }
+                });
+            }
+        });
+
+        // Проверка JWT-токена в SessionStorage
+        function checkAuthStatus() {
+            const jwtToken = sessionStorage.getItem('jwtToken');
+            const hamburger = document.getElementById('hamburger');
+            const authButtons = document.getElementById('authButtons');
+
+            if (jwtToken) {
+                // Показываем гамбургер и скрываем кнопки логина/регистрации
+                hamburger.style.display = 'block';
+                authButtons.style.display = 'none';
+            } else {
+                // Показываем кнопки логина/регистрации и скрываем гамбургер
+                hamburger.style.display = 'none';
+                authButtons.style.display = 'flex';
+            }
+        }
+
+        // Hamburger Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+
+        if (hamburger) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                if (dropdownMenu) {
+                    dropdownMenu.classList.toggle('active');
+                }
+                if (navLinks) {
+                    navLinks.classList.toggle('active');
+                }
+            });
+        }
+
+        // Проверяем статус авторизации при загрузке страницы
+        window.addEventListener('DOMContentLoaded', () => {
+            checkAuthStatus();
+        });
+    </script>
+    
+</body>
+</html>

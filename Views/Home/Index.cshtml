@@ -1,0 +1,213 @@
+﻿@{
+    ViewData["Title"] = "Главная страница";
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Tailwind + Шрифты + Иконки -->
+    <script src="/js/tailwindcss.js"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#6B46C1',
+                secondary: '#9F7AEA',
+                oceanBlue: '#4834D4',
+                lavaRed: '#B83280'
+              },
+              borderRadius: {
+                'button': '8px'
+              }
+            }
+          }
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/remixicon.min.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #0A0A0A;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        #modal {
+            background-color: rgba(0, 0, 0, 0.95);
+        }
+
+        #modalImage {
+            max-height: 90vh;
+            max-width: 90vw;
+            object-fit: contain;
+        }
+
+        #modal .nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 3rem;
+            color: white;
+            z-index: 3;
+            cursor: pointer;
+            user-select: none;
+        }
+
+            #modal .nav-button.left {
+                left: 20px;
+            }
+
+            #modal .nav-button.right {
+                right: 20px;
+            }
+
+        #closeModal {
+            position: absolute;
+            top: 48px;
+            right: 20px;
+            z-index: 3;
+            font-size: 2.5rem;
+        }
+
+        .swiper-slide img {
+            max-height: 60vh;
+            width: auto;
+            margin: 0 auto;
+            object-fit: contain;
+            background-color: #0A0A0A;
+            display: block;
+            position: relative;
+        }
+
+        .swiper-slide::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            background-size: cover;
+            filter: blur(20px);
+            opacity: 0.3;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    @Html.Raw(System.IO.File.ReadAllText(System.IO.Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "html", "index.html")))
+
+    <!-- Modal -->
+    <div id="modal" class="fixed inset-0 z-50 hidden items-center justify-center">
+        <span id="closeModal" class="text-white cursor-pointer">×</span>
+        <span class="nav-button left">❮</span>
+        <span class="nav-button right">❯</span>
+        <img id="modalImage" class="z-10" />
+    </div>
+
+    <script src="/js/signalr.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const swiperWrapper = document.querySelector('.swiper-wrapper');
+          const modal = document.getElementById('modal');
+          const modalImage = document.getElementById('modalImage');
+          const closeModal = document.getElementById('closeModal');
+          const btnLeft = modal.querySelector('.nav-button.left');
+          const btnRight = modal.querySelector('.nav-button.right');
+
+          let currentIndex = 0;
+          let currentArts = [];
+
+          const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/conceptArtHub")
+            .withAutomaticReconnect()
+            .build();
+
+          connection.on("ReceiveConceptArts", (arts) => {
+            if (arts.error) return console.error("Error:", arts.error);
+            sessionStorage.setItem('conceptArts', JSON.stringify(arts));
+            currentArts = arts;
+            renderConceptArts(arts);
+          });
+
+          function startConnection() {
+            connection.start()
+              .then(() => connection.invoke("SendConceptArts"))
+              .catch(err => {
+                console.error("SignalR connection error:", err);
+                setTimeout(startConnection, 5000);
+              });
+          }
+
+          connection.onclose(() => startConnection());
+          startConnection();
+
+          function renderConceptArts(arts) {
+            if (!swiperWrapper) return;
+            swiperWrapper.innerHTML = '';
+            arts.forEach((art, index) => {
+              const slide = document.createElement('div');
+              slide.className = 'swiper-slide relative';
+              slide.innerHTML = `
+                    <div class="image-container">
+                        <img src='/Data/ConceptArt/${art.name}' alt='${art.name}' class='main-image h-full w-auto object-contain'>
+                    </div>
+                `;
+              slide.querySelector('img').addEventListener('click', () => {
+                openModal(index);
+              });
+              swiperWrapper.appendChild(slide);
+            });
+            new Swiper('.swiper', {
+              loop: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          }
+
+          function openModal(index) {
+            currentIndex = index;
+            const art = currentArts[currentIndex];
+            modalImage.src = `/Data/ConceptArt/${art.name}`;
+            modalImage.alt = art.name;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+          }
+
+          function closeModalFunc() {
+            modal.classList.add('hidden');
+          }
+
+          function showNext(delta) {
+            if (!currentArts.length) return;
+            currentIndex = (currentIndex + delta + currentArts.length) % currentArts.length;
+            openModal(currentIndex);
+          }
+
+          closeModal?.addEventListener('click', closeModalFunc);
+          btnLeft?.addEventListener('click', () => showNext(-1));
+          btnRight?.addEventListener('click', () => showNext(1));
+          modal?.addEventListener('click', (e) => {
+            if (e.target === modal) closeModalFunc();
+          });
+
+          const storedArts = JSON.parse(sessionStorage.getItem('conceptArts')) || [];
+          currentArts = storedArts;
+          renderConceptArts(storedArts);
+        });
+    </script>
+</body>
+</html>

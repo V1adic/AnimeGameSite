@@ -1,0 +1,868 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\1\\AnimeGameSite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\js\\admin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\controllers\\conceptartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:controllers\\conceptartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\controllers\\donatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:controllers\\donatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\hubs\\conceptarthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:hubs\\conceptarthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\js\\signalr.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\js\\signalr.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\js\\sha256.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\js\\sha256.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\js\\biginteger.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\js\\biginteger.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\home\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\home\\donat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\home\\donat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\22.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\22.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\23.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\23.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\24.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\24.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\25.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\25.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\26.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\26.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\authorization\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\authorization\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\authorization\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\authorization\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\css\\remixicon.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\css\\remixicon.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\js\\tailwindcss.js||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\js\\tailwindcss.js||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\css\\swiper-bundle.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\css\\swiper-bundle.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\images\\mainpage\\team-member2.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\images\\mainpage\\team-member2.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:userdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\5.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\5.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\6.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\6.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\7.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\7.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\8.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\8.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\data\\donat\\1.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:data\\donat\\1.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\wwwroot\\images\\mainpage\\team-member1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:wwwroot\\images\\mainpage\\team-member1.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\srpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:srpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\srpparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:srpparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|c:\\1\\animegamesite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FC40D7D-9024-BDB0-BE37-DC9B66FD0CA9}|AnimeGameSite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DonatController.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Controllers\\DonatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DonatController.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Controllers\\DonatController.cs",
+              "RelativeToolTip": "Controllers\\DonatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:55:13.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:11:22.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:14:20.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwCIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:14:28.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorizationController.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Controllers\\AuthorizationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorizationController.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Controllers\\AuthorizationController.cs",
+              "RelativeToolTip": "Controllers\\AuthorizationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T04:38:38.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConceptArtController.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Controllers\\ConceptArtController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConceptArtController.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Controllers\\ConceptArtController.cs",
+              "RelativeToolTip": "Controllers\\ConceptArtController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:24:13.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAKsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T12:00:24.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:38:07.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "admin.js",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\admin.js",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js",
+              "RelativeToolTip": "wwwroot\\js\\admin.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-10T04:40:42.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\script.js",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "wwwroot\\js\\script.js",
+              "ViewState": "AgIAALUAAAAAAAAAAAAcwN8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-06T11:47:57.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "signalr.min.js",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\signalr.min.js",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
+              "RelativeToolTip": "wwwroot\\js\\signalr.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-06T12:13:14.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-07T15:29:08.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:54:21.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T11:54:30.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "sha256.min.js",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\sha256.min.js",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
+              "RelativeToolTip": "wwwroot\\js\\sha256.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-07T15:29:14.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Home\\Admin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Admin.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Home\\Admin.cshtml",
+              "RelativeToolTip": "Views\\Home\\Admin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T11:59:06.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Donat.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Home\\Donat.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Donat.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Home\\Donat.cshtml",
+              "RelativeToolTip": "Views\\Home\\Donat.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T11:58:37.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "22.png",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\22.png",
+              "RelativeDocumentMoniker": "Data\\Donat\\22.png",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\22.png",
+              "RelativeToolTip": "Data\\Donat\\22.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-24T05:16:51.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BigInteger.min.js",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\BigInteger.min.js",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
+              "RelativeToolTip": "wwwroot\\js\\BigInteger.min.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-06T12:13:41.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConceptArtHub.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Hubs\\ConceptArtHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ConceptArtHub.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Hubs\\ConceptArtHub.cs",
+              "RelativeToolTip": "Hubs\\ConceptArtHub.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwEcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:28:51.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "23.jpg",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\23.jpg",
+              "RelativeDocumentMoniker": "Data\\Donat\\23.jpg",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\23.jpg",
+              "RelativeToolTip": "Data\\Donat\\23.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-24T05:16:49.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "24.png",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\24.png",
+              "RelativeDocumentMoniker": "Data\\Donat\\24.png",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\24.png",
+              "RelativeToolTip": "Data\\Donat\\24.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-24T05:16:47.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "25.png",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\25.png",
+              "RelativeDocumentMoniker": "Data\\Donat\\25.png",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\25.png",
+              "RelativeToolTip": "Data\\Donat\\25.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-24T05:16:45.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "26.jpg",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\26.jpg",
+              "RelativeDocumentMoniker": "Data\\Donat\\26.jpg",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\26.jpg",
+              "RelativeToolTip": "Data\\Donat\\26.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-24T05:16:42.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Authorization\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authorization\\Login.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Authorization\\Login.cshtml",
+              "RelativeToolTip": "Views\\Authorization\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T04:37:39.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Authorization\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authorization\\Register.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Authorization\\Register.cshtml",
+              "RelativeToolTip": "Views\\Authorization\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T04:38:11.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\html\\index.html",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html",
+              "RelativeToolTip": "wwwroot\\html\\index.html",
+              "ViewState": "AgIAAMMDAAAAAAAAAAAAANUDAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-22T06:15:17.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T15:28:48.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\1\\AnimeGameSite\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T06:30:20.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "team-member1.jpg",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\images\\MainPage\\team-member1.jpg",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
+              "RelativeToolTip": "wwwroot\\images\\MainPage\\team-member1.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-19T10:13:34.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\1\\AnimeGameSite\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T06:30:17.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "tailwindcss.js",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\tailwindcss.js",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
+              "RelativeToolTip": "wwwroot\\js\\tailwindcss.js",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswHsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-22T14:36:33.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "remixicon.min.css",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\remixicon.min.css",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
+              "RelativeToolTip": "wwwroot\\css\\remixicon.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-22T14:22:23.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "header.css",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\header.css",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css",
+              "RelativeToolTip": "wwwroot\\css\\header.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-22T08:41:38.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "swiper-bundle.min.css",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\swiper-bundle.min.css",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
+              "RelativeToolTip": "wwwroot\\css\\swiper-bundle.min.css",
+              "ViewState": "AgIAAKUCAAAAAAAAAAAgwOACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-22T14:23:54.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "team-member2.jpg",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\images\\MainPage\\team-member2.jpg",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
+              "RelativeToolTip": "wwwroot\\images\\MainPage\\team-member2.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-22T09:29:07.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "8.png",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\8.png",
+              "RelativeDocumentMoniker": "Data\\Donat\\8.png",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\8.png",
+              "RelativeToolTip": "Data\\Donat\\8.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-21T11:12:26.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "7.jpg",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\7.jpg",
+              "RelativeDocumentMoniker": "Data\\Donat\\7.jpg",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\7.jpg",
+              "RelativeToolTip": "Data\\Donat\\7.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-21T11:12:29.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-13T06:32:10.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-06-20T11:36:52.812Z",
+              "EditorCaption": " - Icon [32x32, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "1.png",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\1.png",
+              "RelativeDocumentMoniker": "Data\\Donat\\1.png",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\1.png",
+              "RelativeToolTip": "Data\\Donat\\1.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-21T11:01:00.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "6.jpg",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\6.jpg",
+              "RelativeDocumentMoniker": "Data\\Donat\\6.jpg",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\6.jpg",
+              "RelativeToolTip": "Data\\Donat\\6.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-21T11:12:31.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "5.jpg",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Data\\Donat\\5.jpg",
+              "RelativeDocumentMoniker": "Data\\Donat\\5.jpg",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Data\\Donat\\5.jpg",
+              "RelativeToolTip": "Data\\Donat\\5.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-06-21T11:12:32.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T15:28:50.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SrpServer.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\SrpServer.cs",
+              "RelativeDocumentMoniker": "SrpServer.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\SrpServer.cs",
+              "RelativeToolTip": "SrpServer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:28:09.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T12:27:59.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T12:27:58.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T12:27:56.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T12:27:55.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserDatabase.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\UserDatabase.cs",
+              "RelativeDocumentMoniker": "UserDatabase.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\UserDatabase.cs",
+              "RelativeToolTip": "UserDatabase.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwEEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T12:08:37.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SrpParameters.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\SrpParameters.cs",
+              "RelativeDocumentMoniker": "SrpParameters.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\SrpParameters.cs",
+              "RelativeToolTip": "SrpParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:00:23.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\1\\AnimeGameSite\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "Models\\Models.cs",
+              "ToolTip": "C:\\1\\AnimeGameSite\\Models\\Models.cs",
+              "RelativeToolTip": "Models\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T12:31:40.918Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
