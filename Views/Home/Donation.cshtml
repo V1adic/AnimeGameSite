@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Поддержать проект";
+}
+
+<section class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0A0014] to-[#1A0C2D] px-4 overflow-hidden">
+    <!-- Фоновое изображение -->
+    <div class="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat" style="background-image: url('/images/MainPage/cosmos2.jpg');"></div>
+    <div class="overlay bg-black bg-opacity-70 absolute inset-0 z-0"></div>
+
+    <div class="section-content relative z-10 max-w-5xl mx-auto px-6 py-20 w-full">
+        <div class="text-center mb-12">
+            <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 drop-shadow-[0_2px_6px_rgba(111,66,193,0.6)]">
+                Поддержать проект
+            </h1>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                Ваша поддержка помогает нам создавать новый контент и развивать проект! Станьте частью нашего сообщества и получите доступ к эксклюзивным материалам.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white bg-opacity-5 backdrop-blur-md p-8 rounded-2xl border border-white/10 shadow-[0_0_25px_rgba(111,66,193,0.15)]">
+            <div class="space-y-6">
+                <div class="flex items-center gap-4">
+                    <i class="ri-wallet-line text-2xl text-oceanBlue"></i>
+                    <div>
+                        <p class="text-gray-400 text-sm">Банк</p>
+                        <a href="https://www.tinkoff.ru/rm/r_SxIDuOcvGa.RirxObCRdp/DkCut30839" class="text-secondary hover:underline font-medium">https://www.tinkoff.ru...</a>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4">
+                    <i class="ri-money-dollar-circle-line text-2xl text-oceanBlue"></i>
+                    <div>
+                        <p class="text-gray-400 text-sm">DonationAlerts</p>
+                        <a href="https://boosty.to/quiet_planet" target="_blank" class="text-secondary hover:underline font-medium">Поддержать через Boosty</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <div>
+                    <p class="text-gray-300 text-sm mb-2">Важная информация:</p>
+                    <p class="text-white">
+                        Чтобы получить доступ к эксклюзивному контенту необходимо отправить одним платежом не менее <strong>700р</strong>, пожалуйста, укажите свое <strong>имя пользователя</strong> на сайте в описании к донату. Доступ будет предоставлен в течение 24 часов после подтверждения платежа.
+                    </p>
+                </div>
+                <div>
+                    <p class="text-gray-300 text-sm mb-2">Возникли проблемы?</p>
+                    <p class="text-white">
+                        Если у вас возникли вопросы или ошибки с донатом, свяжитесь с нами через <a href="/contacts" class="text-secondary hover:underline font-medium">страницу контактов</a>. Мы ответим максимально быстро!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-16 text-center text-xl text-white italic blurred-text px-6 py-4 rounded-xl bg-black bg-opacity-30 shadow-inner border border-white/10">
+            Спасибо за вашу поддержку! Вместе мы делаем Quiet Planet лучше! ✨
+        </div>
+    </div>
+</section>

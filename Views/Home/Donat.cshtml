@@ -2,37 +2,63 @@
     ViewData["Title"] = "Пожертвования";
 }
 
-<section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0A0014] to-[#1A0C2D] px-4">
-    <div class="bg-black bg-opacity-80 backdrop-blur-md p-10 rounded-2xl shadow-lg text-center max-w-xl w-full">
-        <h1 class="text-4xl font-bold text-white mb-6 font-['Merriweather']">Поддержите Quiet Planet!</h1>
-
-        <p class="text-lg text-gray-400 mb-8 font-['Roboto']" id="donationMessage">
-            Твои пожертвования помогают нам развивать проект, <span class="text-secondary font-semibold">Гость</span>!
-        </p>
-
-        <button onclick="makeDonation()"
-                class="cta-button bg-lavaRed hover:bg-opacity-90 text-white text-lg font-medium py-3 px-6 rounded-button transition-all shadow-md">
-            Сделать пожертвование
-        </button>
+<section class="min-h-screen bg-gradient-to-br from-[#0A0014] to-[#1A0C2D] px-4 py-12" style="background-image: url('/images/MainPage/cosmosDonat.jpg'); background-size: contain; background-repeat: repeat-y; background-position: center;">
+    <div id="content" class="max-w-4xl mx-auto">
+        <div id="loading" class="text-center text-gray-400 font-['Roboto']">Загрузка...</div>
+    </div>
+    <div id="pagination" class="text-center mt-6">
+        <button id="prevPage" class="bg-primary hover:bg-opacity-90 text-white py-2 px-4 rounded-button font-medium transition-all hidden">Предыдущая</button>
+        <button id="nextPage" class="bg-primary hover:bg-opacity-90 text-white py-2 px-4 rounded-button font-medium transition-all hidden">Следующая</button>
     </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
 
+<!-- Модальное окно для просмотра изображений -->
+<div id="imageModal" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 hidden">
+    <button id="closeModal" class="absolute top-4 right-4 text-white text-2xl font-bold">&times;</button>
+    <button id="prevImage" class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full">
+        <i class="ri-arrow-left-s-line text-2xl"></i>
+    </button>
+    <button id="nextImage" class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full">
+        <i class="ri-arrow-right-s-line text-2xl"></i>
+    </button>
+    <img id="modalImage" src="" alt="Full-size image" class="max-w-[90vw] max-h-[90vh] object-contain rounded-lg">
+</div>
+
+<style>
+    .post-card {
+        background: rgba(255, 255, 255, 0.07); /* светлый прозрачный фон */
+        border: 1px solid rgba(255, 255, 255, 0.12); /* легкий акцент */
+        border-radius: 1rem;
+        box-shadow: 0 0 20px rgba(138, 43, 226, 0.2); /* фиолетовое свечение */
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        backdrop-filter: blur(6px);
+        transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
+
+        .post-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 25px rgba(186, 85, 211, 0.4);
+        }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js"></script>
 <script>
+    let currentPage = 1;
+    const postsPerPage = 10;
+    let modalData = { postId: null, images: [], currentIndex: 0 };
+
     async function fetchWithToken(url, options = {}) {
         const token = sessionStorage.getItem("jwtToken");
-        if (!token) {
-            console.warn("No token found, redirecting to /login");
-            return null;
+        if (token) {
+            options.headers = {
+                ...options.headers,
+                "Authorization": `Bearer ${token}`
+            };
         }
-
-        options.headers = {
-            ...options.headers,
-            "Authorization": `Bearer ${token}`
-        };
-
         const response = await fetch(url, options);
         if (response.status === 401) {
+            console.warn("401 Unauthorized, redirecting to /login");
             sessionStorage.removeItem("jwtToken");
             window.location.href = "/login";
             return null;
@@ -46,18 +72,203 @@
             window.location.href = '/login';
             return;
         }
-        alert('Платёжная система в разработке!');
+        window.location.href = '/donation'
     }
 
-    document.addEventListener("DOMContentLoaded", async () => {
-        const msg = document.getElementById("donationMessage");
-        if (!msg) return;
+    async function loadImage(postId, index) {
+        const response = await fetchWithToken(`/donat/image/${postId}/${index}`);
+        if (!response) {
+            return null;
+        }
+        if (!response.ok) {
+            console.error(`Failed to load image for post ${postId}, index ${index}: ${response.status}`);
+            return null;
+        }
+        const blob = await response.blob();
+        return URL.createObjectURL(blob);
+    }
 
-        const res = await fetchWithToken("/donat/secure");
-        if (!res || !res.ok) return;
+    function openModal(postId, images, index) {
+        const modal = document.getElementById("imageModal");
+        const modalImage = document.getElementById("modalImage");
+        modalData = { postId, images, currentIndex: index };
+        modalImage.src = images[index] || 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+        modal.classList.remove("hidden");
+        document.body.style.overflow = "hidden";
+    }
 
-        const data = await res.json();
-        const userName = DOMPurify.sanitize(data.user || "Гость");
-        msg.innerHTML = `Твои пожертвования помогают нам развивать проект, <span class="text-secondary font-semibold">${userName}</span>!`;
-    });
+    async function updateModalImage(direction) {
+        const { postId, images, currentIndex } = modalData;
+        let newIndex = direction === 'next'
+            ? (currentIndex + 1) % images.length
+            : (currentIndex - 1 + images.length) % images.length;
+
+        const imageUrl = await loadImage(postId, newIndex);
+        if (imageUrl) {
+            modalData.currentIndex = newIndex;
+            document.getElementById("modalImage").src = imageUrl;
+        }
+    }
+
+    async function loadPosts(page) {
+        const contentDiv = document.getElementById("content");
+        const loadingDiv = document.getElementById("loading");
+        const prevPageBtn = document.getElementById("prevPage");
+        const nextPageBtn = document.getElementById("nextPage");
+        const userName = DOMPurify.sanitize(sessionStorage.getItem("jwtToken") ? "Пользователь" : "Гость");
+
+        try {
+            const response = await fetchWithToken(`/donat/getposts?page=${page}&pageSize=${postsPerPage}`);
+            if (!response) {
+                showDonationPage(userName);
+                return;
+            }
+
+            const data = await response.json();
+            if (!response.ok || !data.posts || data.posts.length === 0) {
+                showDonationPage(userName);
+                return;
+            }
+
+            contentDiv.innerHTML = `
+                <h1 class="text-4xl font-bold text-white mb-10 font-['Merriweather'] text-center">Блог Quiet Planet</h1>
+                ${data.posts.map(post => {
+                    const photos = post.photoPaths.filter(p => p).slice(0, 10);
+                    return `
+                        <article class="bg-black bg-opacity-80 backdrop-blur-md p-8 rounded-2xl shadow-lg mb-8 post-card">
+                            <p class="text-lg text-gray-300 mb-4 font-['Roboto']">${DOMPurify.sanitize(post.content)}</p>
+                            <p class="text-sm text-gray-500 mb-6 font-['Roboto']">Опубликовано: ${new Date(post.createdAt).toLocaleString('ru-RU', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' })}</p>
+                            ${photos.length > 0 ? `
+                                <div class="relative">
+                                    <div class="carousel overflow-hidden rounded-lg" data-post-id="${post.postId}">
+                                        <div class="carousel-inner flex transition-transform duration-300 ease-in-out">
+                                            ${photos.map((photo, index) => `
+                                                <img data-src="/donat/image/${post.postId}/${index}" alt="Post image" class="w-full h-96 object-cover flex-shrink-0 cursor-pointer" data-index="${index}">
+                                            `).join('')}
+                                        </div>
+                                    </div>
+                                    ${photos.length > 1 ? `
+                                        <button class="carousel-prev absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full" data-post-id="${post.postId}">
+                                            <i class="ri-arrow-left-s-line"></i>
+                                        </button>
+                                        <button class="carousel-next absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full" data-post-id="${post.postId}">
+                                            <i class="ri-arrow-right-s-line"></i>
+                                        </button>
+                                    ` : ''}
+                                </div>
+                            ` : ''}
+                        </article>`;
+                }).join('')}
+            `;
+
+            // Загрузка изображений для карусели
+            const imageElements = document.querySelectorAll('img[data-src]');
+            const imagePromises = Array.from(imageElements).map(async (img) => {
+                const src = img.getAttribute('data-src');
+                const [_, postId, index] = src.match(/\/donat\/image\/(\d+)\/(\d+)/);
+                const imageUrl = await loadImage(postId, index);
+                if (imageUrl) {
+                    img.src = imageUrl;
+                    img.dataset.url = imageUrl; // Сохраняем URL для модального окна
+                } else {
+                    img.src = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+                }
+            });
+            await Promise.all(imagePromises);
+
+            // Пагинация
+            prevPageBtn.classList.toggle("hidden", page <= 1);
+            nextPageBtn.classList.toggle("hidden", !data.hasMore);
+            prevPageBtn.onclick = () => loadPosts(page - 1);
+            nextPageBtn.onclick = () => loadPosts(page + 1);
+
+            // Инициализация карусели
+            document.querySelectorAll('.carousel').forEach(carousel => {
+                const postId = carousel.dataset.postId;
+                const inner = carousel.querySelector('.carousel-inner');
+                const prevBtn = document.querySelector(`.carousel-prev[data-post-id="${postId}"]`);
+                const nextBtn = document.querySelector(`.carousel-next[data-post-id="${postId}"]`);
+                const images = inner.querySelectorAll('img');
+                let currentIndex = 0;
+
+                function updateCarousel() {
+                    inner.style.transform = `translateX(-${currentIndex * 100}%)`;
+                }
+
+                if (prevBtn && nextBtn) {
+                    prevBtn.addEventListener('click', () => {
+                        currentIndex = (currentIndex - 1 + images.length) % images.length;
+                        updateCarousel();
+                    });
+                    nextBtn.addEventListener('click', () => {
+                        currentIndex = (currentIndex + 1) % images.length;
+                        updateCarousel();
+                    });
+                }
+
+                // Открытие модального окна при клике на изображение
+                images.forEach((img, index) => {
+                    img.addEventListener('click', () => {
+                        const imageUrls = Array.from(images).map(i => i.dataset.url || i.src);
+                        openModal(postId, imageUrls, index);
+                    });
+                });
+            });
+
+            // Управление модальным окном
+            const modal = document.getElementById("imageModal");
+            const closeModalBtn = document.getElementById("closeModal");
+            const prevImageBtn = document.getElementById("prevImage");
+            const nextImageBtn = document.getElementById("nextImage");
+
+            closeModalBtn.addEventListener('click', () => {
+                modal.classList.add("hidden");
+                document.body.style.overflow = "";
+            });
+
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.classList.add("hidden");
+                    document.body.style.overflow = "";
+                }
+            });
+
+            prevImageBtn.addEventListener('click', () => updateModalImage('prev'));
+            nextImageBtn.addEventListener('click', () => updateModalImage('next'));
+
+        } catch (error) {
+            console.error("Error loading posts:", error);
+            showDonationPage(userName);
+        } finally {
+            loadingDiv.style.display = "none";
+        }
+    }
+
+    function showDonationPage(userName) {
+        const contentDiv = document.getElementById("content");
+        contentDiv.innerHTML = `
+            <div class="flex items-center justify-center min-h-screen">
+                <div class="bg-black bg-opacity-80 backdrop-blur-md p-10 rounded-2xl shadow-lg text-center max-w-xl w-full">
+                    <h1 class="text-4xl font-bold text-white mb-6 font-['Merriweather']">Поддержите Quiet Planet!</h1>
+                    <p class="text-lg text-gray-400 mb-4 font-['Roboto']">
+                        К сожалению, доступ к эксклюзивному контенту ограничен.
+                        <span class="text-secondary font-semibold">${userName}</span>,
+                        поддержите проект, чтобы получить доступ к уникальным материалам и помочь нам развивать Quiet Planet!
+                    </p>
+                    <p class="text-sm text-gray-500 mb-8 font-['Roboto']">
+                        Укажите свое имя пользователя в описании к донату, и доступ будет предоставлен в течение 24 часов.
+                        Если возникли проблемы, свяжитесь с нами через <a href="/contacts" class="text-secondary hover:underline">страницу контактов</a>.
+                    </p>
+                    <button onclick="makeDonation()"
+                            class="cta-button bg-primary hover:bg-opacity-90 text-white py-3 px-6 w-full rounded-button font-medium transition-all">
+                        Сделать пожертвование
+                    </button>
+                </div>
+            </div>`;
+        // Устанавливаем фоновое изображение на весь экран
+        document.querySelector('section').style.backgroundSize = 'cover';
+        document.querySelector('section').style.backgroundRepeat = 'no-repeat';
+    }
+
+    document.addEventListener("DOMContentLoaded", () => loadPosts(currentPage));
 </script>

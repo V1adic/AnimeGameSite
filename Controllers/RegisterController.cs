@@ -2,10 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Numerics;
 using DemoSRP;
 using DemoSRP.Models;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Text;
-using Microsoft.IdentityModel.Tokens;
+using System.Text.RegularExpressions;
+using AngleSharp.Io;
 
 namespace DemoSRP.Controllers
 {
@@ -23,8 +21,33 @@ namespace DemoSRP.Controllers
         [HttpPost]
         public IActionResult Register([FromBody] RegisterRequest request)
         {
+            // Validate username
+            if (string.IsNullOrWhiteSpace(request.Username))
+            {
+                return BadRequest(new
+                {
+                    Error = "failed",
+                    Message = "BadRequest"
+                });
+            }
+
+            if (!Regex.IsMatch(request.Username, @"^[a-zA-Z0-9]{4,10}$"))
+            {
+                return BadRequest(new
+                {
+                    Error = "failed",
+                    Message = "BadRequest"
+                });
+            }
+
             if (_userDatabase.UserExists(request.Username))
-                return BadRequest(new { Message = "Пользователь уже существует." });
+            {
+                return BadRequest(new
+                {
+                    Error = "failed",
+                    Message = "BadRequest"
+                });
+            }
 
             try
             {
@@ -33,9 +56,13 @@ namespace DemoSRP.Controllers
                 _userDatabase.RegisterUser(request.Username, salt, verifier);
                 return Ok(new { message = "Регистрация успешна" });
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return BadRequest(new { Message = $"Ошибка регистрации: {ex.Message}" });
+                return BadRequest(new
+                {
+                    Error = "failed",
+                    Message = $"BadRequest"
+                });
             }
         }
     }

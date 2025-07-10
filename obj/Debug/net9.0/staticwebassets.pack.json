@@ -1,99 +1,123 @@
 {
   "Files": [
     {
-      "Id": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
       "PackagePath": "staticwebassets\\AnimeGameSite.2zsbibut06.bundle.scp.css"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\header.css",
       "PackagePath": "staticwebassets\\css\\header.css"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
       "PackagePath": "staticwebassets\\css\\remixicon.eot"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
       "PackagePath": "staticwebassets\\css\\remixicon.min.css"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
       "PackagePath": "staticwebassets\\css\\remixicon.ttf"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
       "PackagePath": "staticwebassets\\css\\remixicon.woff"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
       "PackagePath": "staticwebassets\\css\\remixicon.woff2"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
       "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\html\\index.html",
       "PackagePath": "staticwebassets\\html\\index.html"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu.png",
+      "PackagePath": "staticwebassets\\images\\MainPage\\Waifu.png"
+    },
+    {
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu1.png",
+      "PackagePath": "staticwebassets\\images\\MainPage\\Waifu1.png"
+    },
+    {
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu_clean.png",
+      "PackagePath": "staticwebassets\\images\\MainPage\\Waifu_clean.png"
+    },
+    {
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifuc.png",
+      "PackagePath": "staticwebassets\\images\\MainPage\\Waifuc.png"
+    },
+    {
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifucc.png",
+      "PackagePath": "staticwebassets\\images\\MainPage\\Waifucc.png"
+    },
+    {
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
       "PackagePath": "staticwebassets\\images\\MainPage\\cosmos1.jpg"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
       "PackagePath": "staticwebassets\\images\\MainPage\\cosmos2.jpg"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
       "PackagePath": "staticwebassets\\images\\MainPage\\cosmos3.jpg"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmosDonat.jpg",
+      "PackagePath": "staticwebassets\\images\\MainPage\\cosmosDonat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
       "PackagePath": "staticwebassets\\images\\MainPage\\hat.png"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
       "PackagePath": "staticwebassets\\images\\MainPage\\team-member1.jpg"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
       "PackagePath": "staticwebassets\\images\\MainPage\\team-member2.jpg"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
       "PackagePath": "staticwebassets\\images\\MainPage\\team-member3.jpg"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
       "PackagePath": "staticwebassets\\js\\BigInteger.min.js"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\admin.js",
       "PackagePath": "staticwebassets\\js\\admin.js"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
       "PackagePath": "staticwebassets\\js\\sha256.min.js"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
       "PackagePath": "staticwebassets\\js\\signalr.min.js"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
+      "Id": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
       "PackagePath": "staticwebassets\\js\\tailwindcss.js"
     },
     {

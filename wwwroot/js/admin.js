@@ -30,8 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const postResult = document.getElementById("postResult");
         const dropArea = document.getElementById("dropArea");
         const photosInput = document.getElementById("photos");
+        const roleSection = document.getElementById("roleSection");
+        const roleForm = document.getElementById("roleForm");
+        const roleResult = document.getElementById("roleResult");
 
-        if (!welcomeMessage || !postSection || !postForm || !postResult || !dropArea || !photosInput) {
+        if (!welcomeMessage || !postSection || !postForm || !postResult || !dropArea || !photosInput || !roleSection || !roleForm || !roleResult) {
             console.error("Required elements not found!");
             return;
         }
@@ -43,8 +46,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 if (!response.ok) {
                     console.error("Admin page error:", response.status, await response.text());
-                    welcomeMessage.textContent = "Доступ запрещён. Только для администраторов.";
+                    welcomeMessage.textContent = "Доступ запрещён.Только для администраторов.";
                     postSection.style.display = "none";
+                    roleSection.style.display = "none";
                 } else {
                     const data = await response.json();
                     console.log("Admin access granted:", data);
@@ -53,6 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     welcomeMessage.textContent = `Добро пожаловать, ${userName}!`;
                     welcomeMessage.style.color = "#DED1B7";
                     postSection.style.display = "block"; // Показываем форму для админов
+                    roleSection.style.display = "block"; // Показываем блок назначения ролей
 
                     // Drag-and-drop обработчики
                     dropArea.addEventListener("dragover", (e) => {
@@ -113,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         postResult.style.color = "#28a745";
                     }
 
-                    // Обработчик отправки формы
+                    // Обработчик отправки формы поста
                     postForm.addEventListener("submit", async (e) => {
                         e.preventDefault();
                         postResult.textContent = "Загрузка...";
@@ -164,12 +169,59 @@ document.addEventListener("DOMContentLoaded", () => {
                             postResult.style.color = "#dc3545";
                         }
                     });
+
+                    // Обработчик отправки формы назначения ролей
+                    roleForm.addEventListener("submit", async (e) => {
+                        e.preventDefault();
+                        roleResult.textContent = "Обработка...";
+                        roleResult.style.color = "#DED1B7";
+
+                        const formData = new FormData(roleForm);
+                        const username = DOMPurify.sanitize(formData.get("username"));
+                        const role = formData.get("role");
+
+                        if (!username || !role) {
+                            roleResult.textContent = "Заполните все поля!";
+                            roleResult.style.color = "#dc3545";
+                            return;
+                        }
+
+                        try {
+                            const response = await fetchWithToken("/admin/secure/role", {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json"
+                                },
+                                body: JSON.stringify({ username, role })
+                            });
+
+                            if (!response) return; // Перенаправлены на /login
+
+                            if (!response.ok) {
+                                const errorText = await response.text();
+                                console.error("Role assignment error:", response.status, errorText);
+                                roleResult.textContent = "Не удалось назначить роль!";
+                                roleResult.style.color = "#dc3545";
+                                return;
+                            }
+
+                            const data = await response.json();
+                            roleResult.textContent = data.Message || "Роль успешно назначена!";
+                            roleResult.style.color = "#28a745";
+                            roleForm.reset();
+                        } catch (error) {
+                            console.error("Role assignment error:", error);
+                            roleResult.textContent = "Ошибка при назначении роли!";
+                            roleResult.style.color = "#dc3545";
+                        }
+                    });
                 }
             })
             .catch(error => {
                 welcomeMessage.textContent = "Ошибка загрузки данных!";
                 welcomeMessage.style.color = "#dc3545";
                 postSection.style.display = "none";
+                roleSection.style.display = "none";
             });
     }
 });

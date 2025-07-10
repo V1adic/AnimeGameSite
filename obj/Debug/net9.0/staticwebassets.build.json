@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GJ/zBx/Horv1dTlL40f6Oj7d7WVzUgzYleJrr0sc1/k=",
+  "Hash": "2CGuFeZUaAgbNqeWGP/xjvrWy1CuOryglMYBb6/kH88=",
   "Source": "AnimeGameSite",
   "BasePath": "_content/AnimeGameSite",
   "Mode": "Default",
@@ -10,38 +10,38 @@
     {
       "Name": "AnimeGameSite\\wwwroot",
       "Source": "AnimeGameSite",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-4kof1l10cf.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-7pqpi0pxwv.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
-      "RelativePath": "js/admin#[.{fingerprint=4kof1l10cf}]?.js.gz",
+      "RelativePath": "js/admin#[.{fingerprint=7pqpi0pxwv}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\admin.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "780wiiktct",
-      "Integrity": "JyPeIt8uNVMc46Q308jBowUBsKRmBa4PkrhToywFFL0=",
+      "Fingerprint": "bbxuwa0ggk",
+      "Integrity": "J4yYFg9q1ihC5DEXJCdr+Dks3pglCPXqfIuN5xoIVx4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\admin.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/signalr.min#[.{fingerprint=8zb1dpva3y}]?.js.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "ivpuymd8rg",
       "Integrity": "gtdnw8m8Y/iShIUQDlgHmtXpttIRopyLFMbYHQjK42I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\signalr.min.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "AnimeGameSite#[.{fingerprint=2zsbibut06}]?.styles.css.gz",
       "AssetKind": "All",
@@ -70,41 +70,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jzgxvlup1b",
       "Integrity": "P+dmY57MBJRaJ7mTIQWzx/EWSPWqMFxPROVcc3Ysy78=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-kccuvgy0e1.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-uqkb887niu.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
-      "RelativePath": "css/header#[.{fingerprint=kccuvgy0e1}]?.css.gz",
+      "RelativePath": "css/header#[.{fingerprint=uqkb887niu}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\header.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ib5fa72d5x",
-      "Integrity": "UhFq3RglE3/EJtvfiLAVmQOQXqSFHsPDFw1RlUMc3gc=",
+      "Fingerprint": "uq08u6tcgq",
+      "Integrity": "OsRBBmJQ2Yuuw7mTtd8ghmdutIn8CRNfj55te0YYkwo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\header.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/tailwindcss#[.{fingerprint=vyvjcvm7mo}]?.js.gz",
       "AssetKind": "All",
@@ -112,20 +112,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "5yjzhjia9z",
       "Integrity": "vczpLBrgd+td3p1H/4Z7aBdPRBiFG49WG6pVD4b8YeI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/remixicon.min#[.{fingerprint=es7dr23n1z}]?.css.gz",
       "AssetKind": "All",
@@ -133,41 +133,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "f065o35yi9",
       "Integrity": "r4HgL+fLlpZ3yd9wximGkFDdtHZB71EuniyOd9mjjZg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-me8792f8t8.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-8jw65or77c.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
-      "RelativePath": "html/index#[.{fingerprint=me8792f8t8}]?.html.gz",
+      "RelativePath": "html/index#[.{fingerprint=8jw65or77c}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\html\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mw73pfoott",
-      "Integrity": "xh9jcRAd9FUmzmtlPaz5WZL8/9DQ6V/418dTd5PUtic=",
+      "Fingerprint": "tas6ikb9mk",
+      "Integrity": "xeYyAD1hmMBhWKlxvChOQH/ZRr2RPetFr+oQ5dUAFgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\html\\index.html"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/swiper-bundle.min#[.{fingerprint=10wfuut1gc}]?.css.gz",
       "AssetKind": "All",
@@ -175,20 +175,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "9flh3o5pj7",
       "Integrity": "S6Z4Rff3pmHsZTE6GVzHqyt5afvD0ihTMcqdG7QtOG8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
       "AssetKind": "All",
@@ -196,20 +196,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "lir1p715ud",
       "Integrity": "jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/BigInteger.min#[.{fingerprint=buqhvpqvcq}]?.js.gz",
       "AssetKind": "All",
@@ -217,20 +217,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "pln5381k9k",
       "Integrity": "Q+Y08enPo9rdi6ueOkcFwsyo2kbEcib2b518g1tqYY4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/site#[.{fingerprint=xtxxf3hu2r}]?.js.gz",
       "AssetKind": "All",
@@ -238,20 +238,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "fpxp8wntf7",
       "Integrity": "465WqepNnI4ENLgQJFXrL2gtI20GCfeLK3JAtugOzpA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "AnimeGameSite#[.{fingerprint=2zsbibut06}]!.bundle.scp.css.gz",
       "AssetKind": "All",
@@ -259,41 +259,41 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jzgxvlup1b",
       "Integrity": "P+dmY57MBJRaJ7mTIQWzx/EWSPWqMFxPROVcc3Ysy78=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-kj6mgja9lq.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-v5nktiau18.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
-      "RelativePath": "js/script#[.{fingerprint=kj6mgja9lq}]?.js.gz",
+      "RelativePath": "js/script#[.{fingerprint=v5nktiau18}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "loc2r5jb98",
-      "Integrity": "SzRBSExiL5bCl8fSAms9JvevZPk2Q8DVfqf26Y2Ke5s=",
+      "Fingerprint": "ujpvti34mn",
+      "Integrity": "GohF8vl3Si5B8UksU5+OVEj6AqUVyKaqOLCIJezM7vw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/sha256.min#[.{fingerprint=p5nfogrn67}]?.js.gz",
       "AssetKind": "All",
@@ -301,20 +301,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
+      "RelatedAsset": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "jg116w3i1c",
       "Integrity": "XUyCqoxFNM6EFscMQZRdsRyp8xMSqp2mhD/u5yPYDe0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\sha256.min.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
       "SourceId": "AnimeGameSite",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "AnimeGameSite#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -329,13 +329,13 @@
       "Integrity": "khr8J2F1Bt2Rej1L2MBro3iZyzLPw0mmrAKnKHeqy7M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
       "SourceId": "AnimeGameSite",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "AnimeGameSite#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -350,13 +350,13 @@
       "Integrity": "khr8J2F1Bt2Rej1L2MBro3iZyzLPw0mmrAKnKHeqy7M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\header.css",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/header#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -367,17 +367,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kccuvgy0e1",
-      "Integrity": "/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0=",
+      "Fingerprint": "uqkb887niu",
+      "Integrity": "OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\header.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/remixicon#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\css\\remixicon.eot"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/remixicon.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\css\\remixicon.min.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/remixicon#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\css\\remixicon.ttf"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/remixicon#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\css\\remixicon.woff"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/remixicon#[.{fingerprint}]?.woff2",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\css\\remixicon.woff2"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "css/swiper-bundle.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\css\\swiper-bundle.min.css"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\favicon.ico",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\html\\index.html",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "html/index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -535,17 +535,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "me8792f8t8",
-      "Integrity": "TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg=",
+      "Fingerprint": "8jw65or77c",
+      "Integrity": "NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\index.html"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "images/MainPage/cosmos1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\images\\MainPage\\cosmos1.jpg"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "images/MainPage/cosmos2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\images\\MainPage\\cosmos2.jpg"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "images/MainPage/cosmos3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -605,10 +605,31 @@
       "OriginalItemSpec": "wwwroot\\images\\MainPage\\cosmos3.jpg"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmosDonat.jpg",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
+      "BasePath": "_content/AnimeGameSite",
+      "RelativePath": "images/MainPage/cosmosDonat#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w0tqenh3bx",
+      "Integrity": "kJDXH0dKPSSHwK/wFRbG+83A92PP92KwcWqEuVv6vJ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MainPage\\cosmosDonat.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
+      "SourceId": "AnimeGameSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "images/MainPage/hat#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -626,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\images\\MainPage\\hat.png"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "images/MainPage/team-member1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -647,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\images\\MainPage\\team-member1.jpg"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "images/MainPage/team-member2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -668,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\MainPage\\team-member2.jpg"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "images/MainPage/team-member3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -689,10 +710,115 @@
       "OriginalItemSpec": "wwwroot\\images\\MainPage\\team-member3.jpg"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu.png",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
+      "BasePath": "_content/AnimeGameSite",
+      "RelativePath": "images/MainPage/Waifu#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzoiaocdhv",
+      "Integrity": "CQcITR6KGSW4TAwxW+Z/vsQvTaev2QulXXou1p7I0FM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MainPage\\Waifu.png"
+    },
+    {
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu_clean.png",
+      "SourceId": "AnimeGameSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
+      "BasePath": "_content/AnimeGameSite",
+      "RelativePath": "images/MainPage/Waifu_clean#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iwcr3z3e16",
+      "Integrity": "7oYtKyppy2aCI0epZu1WALrQPg8hfHr1YlYDkevze38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MainPage\\Waifu_clean.png"
+    },
+    {
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu1.png",
+      "SourceId": "AnimeGameSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
+      "BasePath": "_content/AnimeGameSite",
+      "RelativePath": "images/MainPage/Waifu1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lhfkeo7kwt",
+      "Integrity": "l9bAFJQSYsHmj5B7hpKu7KPBMeDhYrBw9KfaTsjyy7M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MainPage\\Waifu1.png"
+    },
+    {
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifuc.png",
+      "SourceId": "AnimeGameSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
+      "BasePath": "_content/AnimeGameSite",
+      "RelativePath": "images/MainPage/Waifuc#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xyhz9s55l7",
+      "Integrity": "R5GSABU8Xa2cbNlIATzjG3JKmd52bsoZ7pE9obpJVQg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MainPage\\Waifuc.png"
+    },
+    {
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifucc.png",
+      "SourceId": "AnimeGameSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
+      "BasePath": "_content/AnimeGameSite",
+      "RelativePath": "images/MainPage/Waifucc#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "83u2qkcdtk",
+      "Integrity": "1C6MQDiZ6iUdM4KDumd8DF5KavMhetrNRAGuzHmLS24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\MainPage\\Waifucc.png"
+    },
+    {
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\admin.js",
+      "SourceId": "AnimeGameSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/admin#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -703,17 +829,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4kof1l10cf",
-      "Integrity": "7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE=",
+      "Fingerprint": "7pqpi0pxwv",
+      "Integrity": "lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\admin.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/BigInteger.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -731,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\js\\BigInteger.min.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\script.js",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/script#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -745,17 +871,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "kj6mgja9lq",
-      "Integrity": "oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0=",
+      "Fingerprint": "v5nktiau18",
+      "Integrity": "Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/sha256.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -773,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sha256.min.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/signalr.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -794,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signalr.min.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\site.js",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -815,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
+      "Identity": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
       "SourceId": "AnimeGameSite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\1\\AnimeGameSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\",
       "BasePath": "_content/AnimeGameSite",
       "RelativePath": "js/tailwindcss#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -839,7 +965,7 @@
   "Endpoints": [
     {
       "Route": "AnimeGameSite.2zsbibut06.bundle.scp.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -902,7 +1028,7 @@
     },
     {
       "Route": "AnimeGameSite.2zsbibut06.bundle.scp.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -947,7 +1073,7 @@
     },
     {
       "Route": "AnimeGameSite.2zsbibut06.bundle.scp.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1000,7 +1126,7 @@
     },
     {
       "Route": "AnimeGameSite.2zsbibut06.styles.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1063,7 +1189,7 @@
     },
     {
       "Route": "AnimeGameSite.2zsbibut06.styles.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1108,7 +1234,7 @@
     },
     {
       "Route": "AnimeGameSite.2zsbibut06.styles.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1161,7 +1287,7 @@
     },
     {
       "Route": "AnimeGameSite.bundle.scp.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1216,7 +1342,7 @@
     },
     {
       "Route": "AnimeGameSite.bundle.scp.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AnimeGameSite.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1253,7 +1379,7 @@
     },
     {
       "Route": "AnimeGameSite.bundle.scp.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\sbiqaxznht-2zsbibut06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1298,7 +1424,7 @@
     },
     {
       "Route": "AnimeGameSite.styles.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1353,7 +1479,7 @@
     },
     {
       "Route": "AnimeGameSite.styles.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\scopedcss\\bundle\\AnimeGameSite.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1390,7 +1516,7 @@
     },
     {
       "Route": "AnimeGameSite.styles.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\9mtcjnu0yc-2zsbibut06.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1435,12 +1561,12 @@
     },
     {
       "Route": "css/header.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-kccuvgy0e1.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-uqkb887niu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000871839582"
+          "Quality": "0.000793021412"
         }
       ],
       "ResponseHeaders": [
@@ -1450,15 +1576,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1146"
+          "Value": "1260"
         },
         {
           "Name": "ETag",
-          "Value": "\"UhFq3RglE3/EJtvfiLAVmQOQXqSFHsPDFw1RlUMc3gc=\""
+          "Value": "\"OsRBBmJQ2Yuuw7mTtd8ghmdutIn8CRNfj55te0YYkwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:13:41 GMT"
+          "Value": "Tue, 24 Jun 2025 14:57:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1478,19 +1604,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0=\""
+          "Value": "W/\"OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0="
+          "Value": "sha256-OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0="
         }
       ]
     },
     {
       "Route": "css/header.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\header.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1499,7 +1625,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3878"
+          "Value": "4771"
         },
         {
           "Name": "Content-Type",
@@ -1507,11 +1633,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0=\""
+          "Value": "\"OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:13:41 GMT"
+          "Value": "Tue, 24 Jun 2025 14:57:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1521,13 +1647,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0="
+          "Value": "sha256-OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0="
         }
       ]
     },
     {
       "Route": "css/header.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-kccuvgy0e1.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-uqkb887niu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1536,7 +1662,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1146"
+          "Value": "1260"
         },
         {
           "Name": "Content-Type",
@@ -1544,11 +1670,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UhFq3RglE3/EJtvfiLAVmQOQXqSFHsPDFw1RlUMc3gc=\""
+          "Value": "\"OsRBBmJQ2Yuuw7mTtd8ghmdutIn8CRNfj55te0YYkwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:13:41 GMT"
+          "Value": "Tue, 24 Jun 2025 14:57:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1566,18 +1692,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UhFq3RglE3/EJtvfiLAVmQOQXqSFHsPDFw1RlUMc3gc="
+          "Value": "sha256-OsRBBmJQ2Yuuw7mTtd8ghmdutIn8CRNfj55te0YYkwo="
         }
       ]
     },
     {
-      "Route": "css/header.kccuvgy0e1.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-kccuvgy0e1.gz",
+      "Route": "css/header.uqkb887niu.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-uqkb887niu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000871839582"
+          "Quality": "0.000793021412"
         }
       ],
       "ResponseHeaders": [
@@ -1587,15 +1713,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1146"
+          "Value": "1260"
         },
         {
           "Name": "ETag",
-          "Value": "\"UhFq3RglE3/EJtvfiLAVmQOQXqSFHsPDFw1RlUMc3gc=\""
+          "Value": "\"OsRBBmJQ2Yuuw7mTtd8ghmdutIn8CRNfj55te0YYkwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:13:41 GMT"
+          "Value": "Tue, 24 Jun 2025 14:57:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1615,13 +1741,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0=\""
+          "Value": "W/\"OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kccuvgy0e1"
+          "Value": "uqkb887niu"
         },
         {
           "Name": "label",
@@ -1629,13 +1755,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0="
+          "Value": "sha256-OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0="
         }
       ]
     },
     {
-      "Route": "css/header.kccuvgy0e1.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\header.css",
+      "Route": "css/header.uqkb887niu.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\header.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1644,7 +1770,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3878"
+          "Value": "4771"
         },
         {
           "Name": "Content-Type",
@@ -1652,11 +1778,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0=\""
+          "Value": "\"OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:13:41 GMT"
+          "Value": "Tue, 24 Jun 2025 14:57:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1666,7 +1792,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kccuvgy0e1"
+          "Value": "uqkb887niu"
         },
         {
           "Name": "label",
@@ -1674,13 +1800,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-/IbDxMoDK+qHtPjnTIR3uTzmS54+RpinIF3INwI99d0="
+          "Value": "sha256-OmoqyXF0Zq3RnBF8XkEm39A8KIVwc3/0dEe5MTVhwy0="
         }
       ]
     },
     {
-      "Route": "css/header.kccuvgy0e1.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-kccuvgy0e1.gz",
+      "Route": "css/header.uqkb887niu.css.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ab4pnyr1tj-uqkb887niu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1689,7 +1815,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1146"
+          "Value": "1260"
         },
         {
           "Name": "Content-Type",
@@ -1697,11 +1823,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UhFq3RglE3/EJtvfiLAVmQOQXqSFHsPDFw1RlUMc3gc=\""
+          "Value": "\"OsRBBmJQ2Yuuw7mTtd8ghmdutIn8CRNfj55te0YYkwo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:13:41 GMT"
+          "Value": "Tue, 24 Jun 2025 14:57:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1719,7 +1845,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kccuvgy0e1"
+          "Value": "uqkb887niu"
         },
         {
           "Name": "label",
@@ -1727,13 +1853,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UhFq3RglE3/EJtvfiLAVmQOQXqSFHsPDFw1RlUMc3gc="
+          "Value": "sha256-OsRBBmJQ2Yuuw7mTtd8ghmdutIn8CRNfj55te0YYkwo="
         }
       ]
     },
     {
       "Route": "css/remixicon.6ztz4gdtpw.woff2",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1778,7 +1904,7 @@
     },
     {
       "Route": "css/remixicon.7trw228kfl.ttf",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1823,7 +1949,7 @@
     },
     {
       "Route": "css/remixicon.eot",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1860,7 +1986,7 @@
     },
     {
       "Route": "css/remixicon.j38vru5kz9.eot",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1905,7 +2031,7 @@
     },
     {
       "Route": "css/remixicon.min.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1960,7 +2086,7 @@
     },
     {
       "Route": "css/remixicon.min.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1997,7 +2123,7 @@
     },
     {
       "Route": "css/remixicon.min.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2042,7 +2168,7 @@
     },
     {
       "Route": "css/remixicon.min.es7dr23n1z.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2105,7 +2231,7 @@
     },
     {
       "Route": "css/remixicon.min.es7dr23n1z.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2150,7 +2276,7 @@
     },
     {
       "Route": "css/remixicon.min.es7dr23n1z.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\dvlop05ei9-es7dr23n1z.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2203,7 +2329,7 @@
     },
     {
       "Route": "css/remixicon.ttf",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2240,7 +2366,7 @@
     },
     {
       "Route": "css/remixicon.woff",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2277,7 +2403,7 @@
     },
     {
       "Route": "css/remixicon.woff2",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff2",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2314,7 +2440,7 @@
     },
     {
       "Route": "css/remixicon.xf9w9gw39g.woff",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\remixicon.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2359,7 +2485,7 @@
     },
     {
       "Route": "css/swiper-bundle.min.10wfuut1gc.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2422,7 +2548,7 @@
     },
     {
       "Route": "css/swiper-bundle.min.10wfuut1gc.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2467,7 +2593,7 @@
     },
     {
       "Route": "css/swiper-bundle.min.10wfuut1gc.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2520,7 +2646,7 @@
     },
     {
       "Route": "css/swiper-bundle.min.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2575,7 +2701,7 @@
     },
     {
       "Route": "css/swiper-bundle.min.css",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\css\\swiper-bundle.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2612,7 +2738,7 @@
     },
     {
       "Route": "css/swiper-bundle.min.css.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\j9xuenacho-10wfuut1gc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2657,7 +2783,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2720,7 +2846,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2765,7 +2891,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2818,7 +2944,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -2873,7 +2999,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2910,7 +3036,7 @@
     },
     {
       "Route": "favicon.ico.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n8ft0bevtw-61n19gt1b8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2954,13 +3080,13 @@
       ]
     },
     {
-      "Route": "html/index.html",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-me8792f8t8.gz",
+      "Route": "html/index.8jw65or77c.html",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-8jw65or77c.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000113999088"
+          "Quality": "0.000105775333"
         }
       ],
       "ResponseHeaders": [
@@ -2970,152 +3096,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8771"
+          "Value": "9453"
         },
         {
           "Name": "ETag",
-          "Value": "\"xh9jcRAd9FUmzmtlPaz5WZL8/9DQ6V/418dTd5PUtic=\""
+          "Value": "\"xeYyAD1hmMBhWKlxvChOQH/ZRr2RPetFr+oQ5dUAFgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:35:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg="
-        }
-      ]
-    },
-    {
-      "Route": "html/index.html",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "42269"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:35:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg="
-        }
-      ]
-    },
-    {
-      "Route": "html/index.html.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-me8792f8t8.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8771"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xh9jcRAd9FUmzmtlPaz5WZL8/9DQ6V/418dTd5PUtic=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:35:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xh9jcRAd9FUmzmtlPaz5WZL8/9DQ6V/418dTd5PUtic="
-        }
-      ]
-    },
-    {
-      "Route": "html/index.me8792f8t8.html",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-me8792f8t8.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000113999088"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8771"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xh9jcRAd9FUmzmtlPaz5WZL8/9DQ6V/418dTd5PUtic=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:35:17 GMT"
+          "Value": "Tue, 08 Jul 2025 08:13:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3135,13 +3124,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg=\""
+          "Value": "W/\"NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "me8792f8t8"
+          "Value": "8jw65or77c"
         },
         {
           "Name": "label",
@@ -3149,13 +3138,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg="
+          "Value": "sha256-NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw="
         }
       ]
     },
     {
-      "Route": "html/index.me8792f8t8.html",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\html\\index.html",
+      "Route": "html/index.8jw65or77c.html",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\html\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3164,7 +3153,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "42269"
+          "Value": "44790"
         },
         {
           "Name": "Content-Type",
@@ -3172,11 +3161,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg=\""
+          "Value": "\"NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:35:17 GMT"
+          "Value": "Tue, 08 Jul 2025 08:13:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3186,7 +3175,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "me8792f8t8"
+          "Value": "8jw65or77c"
         },
         {
           "Name": "label",
@@ -3194,13 +3183,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TgeCyi0O5BUm+ncTvrQPe3qDbhC9+Ar/JumeKyJrTEg="
+          "Value": "sha256-NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw="
         }
       ]
     },
     {
-      "Route": "html/index.me8792f8t8.html.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-me8792f8t8.gz",
+      "Route": "html/index.8jw65or77c.html.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-8jw65or77c.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3209,7 +3198,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8771"
+          "Value": "9453"
         },
         {
           "Name": "Content-Type",
@@ -3217,11 +3206,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xh9jcRAd9FUmzmtlPaz5WZL8/9DQ6V/418dTd5PUtic=\""
+          "Value": "\"xeYyAD1hmMBhWKlxvChOQH/ZRr2RPetFr+oQ5dUAFgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 23 Jun 2025 11:35:17 GMT"
+          "Value": "Tue, 08 Jul 2025 08:13:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3239,7 +3228,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "me8792f8t8"
+          "Value": "8jw65or77c"
         },
         {
           "Name": "label",
@@ -3247,13 +3236,150 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xh9jcRAd9FUmzmtlPaz5WZL8/9DQ6V/418dTd5PUtic="
+          "Value": "sha256-xeYyAD1hmMBhWKlxvChOQH/ZRr2RPetFr+oQ5dUAFgA="
+        }
+      ]
+    },
+    {
+      "Route": "html/index.html",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-8jw65or77c.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000105775333"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9453"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xeYyAD1hmMBhWKlxvChOQH/ZRr2RPetFr+oQ5dUAFgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 08:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw="
+        }
+      ]
+    },
+    {
+      "Route": "html/index.html",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\html\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44790"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 08:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NN/l5Ihn4HAwJpYZOURKi3+MhNVgVKyk8nQLn7xo/qw="
+        }
+      ]
+    },
+    {
+      "Route": "html/index.html.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\i372qd5gtz-8jw65or77c.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9453"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xeYyAD1hmMBhWKlxvChOQH/ZRr2RPetFr+oQ5dUAFgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 08:13:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xeYyAD1hmMBhWKlxvChOQH/ZRr2RPetFr+oQ5dUAFgA="
         }
       ]
     },
     {
       "Route": "images/MainPage/cosmos1.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3290,7 +3416,7 @@
     },
     {
       "Route": "images/MainPage/cosmos1.mz3jr4upls.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3335,7 +3461,7 @@
     },
     {
       "Route": "images/MainPage/cosmos2.byl5w701wm.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3380,7 +3506,7 @@
     },
     {
       "Route": "images/MainPage/cosmos2.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3417,7 +3543,7 @@
     },
     {
       "Route": "images/MainPage/cosmos3.37wld05955.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3462,7 +3588,7 @@
     },
     {
       "Route": "images/MainPage/cosmos3.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmos3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3498,8 +3624,90 @@
       ]
     },
     {
+      "Route": "images/MainPage/cosmosDonat.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmosDonat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2816865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kJDXH0dKPSSHwK/wFRbG+83A92PP92KwcWqEuVv6vJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jun 2021 10:42:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJDXH0dKPSSHwK/wFRbG+83A92PP92KwcWqEuVv6vJ0="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/cosmosDonat.w0tqenh3bx.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\cosmosDonat.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2816865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kJDXH0dKPSSHwK/wFRbG+83A92PP92KwcWqEuVv6vJ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Jun 2021 10:42:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w0tqenh3bx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MainPage/cosmosDonat.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kJDXH0dKPSSHwK/wFRbG+83A92PP92KwcWqEuVv6vJ0="
+        }
+      ]
+    },
+    {
       "Route": "images/MainPage/hat.jna7fij15t.png",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3544,7 +3752,7 @@
     },
     {
       "Route": "images/MainPage/hat.png",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\hat.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3581,7 +3789,7 @@
     },
     {
       "Route": "images/MainPage/team-member1.gtbdprqbem.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3626,7 +3834,7 @@
     },
     {
       "Route": "images/MainPage/team-member1.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3663,7 +3871,7 @@
     },
     {
       "Route": "images/MainPage/team-member2.40zue1x48p.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3708,7 +3916,7 @@
     },
     {
       "Route": "images/MainPage/team-member2.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3745,7 +3953,7 @@
     },
     {
       "Route": "images/MainPage/team-member3.a6h6940j48.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3790,7 +3998,7 @@
     },
     {
       "Route": "images/MainPage/team-member3.jpg",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\team-member3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3826,13 +4034,423 @@
       ]
     },
     {
-      "Route": "js/admin.4kof1l10cf.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-4kof1l10cf.gz",
+      "Route": "images/MainPage/Waifu.bzoiaocdhv.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2233599"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CQcITR6KGSW4TAwxW+Z/vsQvTaev2QulXXou1p7I0FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:28:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzoiaocdhv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MainPage/Waifu.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CQcITR6KGSW4TAwxW+Z/vsQvTaev2QulXXou1p7I0FM="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifu.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2233599"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CQcITR6KGSW4TAwxW+Z/vsQvTaev2QulXXou1p7I0FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:28:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CQcITR6KGSW4TAwxW+Z/vsQvTaev2QulXXou1p7I0FM="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifu_clean.iwcr3z3e16.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu_clean.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3391190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7oYtKyppy2aCI0epZu1WALrQPg8hfHr1YlYDkevze38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:28:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iwcr3z3e16"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MainPage/Waifu_clean.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7oYtKyppy2aCI0epZu1WALrQPg8hfHr1YlYDkevze38="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifu_clean.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu_clean.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3391190"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7oYtKyppy2aCI0epZu1WALrQPg8hfHr1YlYDkevze38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:28:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7oYtKyppy2aCI0epZu1WALrQPg8hfHr1YlYDkevze38="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifu1.lhfkeo7kwt.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2240150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l9bAFJQSYsHmj5B7hpKu7KPBMeDhYrBw9KfaTsjyy7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:28:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lhfkeo7kwt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MainPage/Waifu1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l9bAFJQSYsHmj5B7hpKu7KPBMeDhYrBw9KfaTsjyy7M="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifu1.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifu1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2240150"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l9bAFJQSYsHmj5B7hpKu7KPBMeDhYrBw9KfaTsjyy7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:28:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l9bAFJQSYsHmj5B7hpKu7KPBMeDhYrBw9KfaTsjyy7M="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifuc.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifuc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2704081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5GSABU8Xa2cbNlIATzjG3JKmd52bsoZ7pE9obpJVQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:38:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5GSABU8Xa2cbNlIATzjG3JKmd52bsoZ7pE9obpJVQg="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifuc.xyhz9s55l7.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifuc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2704081"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R5GSABU8Xa2cbNlIATzjG3JKmd52bsoZ7pE9obpJVQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:38:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xyhz9s55l7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MainPage/Waifuc.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R5GSABU8Xa2cbNlIATzjG3JKmd52bsoZ7pE9obpJVQg="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifucc.83u2qkcdtk.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifucc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2742181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1C6MQDiZ6iUdM4KDumd8DF5KavMhetrNRAGuzHmLS24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "83u2qkcdtk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/MainPage/Waifucc.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1C6MQDiZ6iUdM4KDumd8DF5KavMhetrNRAGuzHmLS24="
+        }
+      ]
+    },
+    {
+      "Route": "images/MainPage/Waifucc.png",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\images\\MainPage\\Waifucc.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2742181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1C6MQDiZ6iUdM4KDumd8DF5KavMhetrNRAGuzHmLS24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 12:38:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1C6MQDiZ6iUdM4KDumd8DF5KavMhetrNRAGuzHmLS24="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin.7pqpi0pxwv.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-7pqpi0pxwv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000448028674"
+          "Quality": "0.000389256520"
         }
       ],
       "ResponseHeaders": [
@@ -3842,15 +4460,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2231"
+          "Value": "2568"
         },
         {
           "Name": "ETag",
-          "Value": "\"JyPeIt8uNVMc46Q308jBowUBsKRmBa4PkrhToywFFL0=\""
+          "Value": "\"J4yYFg9q1ihC5DEXJCdr+Dks3pglCPXqfIuN5xoIVx4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:36:17 GMT"
+          "Value": "Thu, 26 Jun 2025 04:48:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3870,13 +4488,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE=\""
+          "Value": "W/\"lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4kof1l10cf"
+          "Value": "7pqpi0pxwv"
         },
         {
           "Name": "label",
@@ -3884,13 +4502,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE="
+          "Value": "sha256-lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno="
         }
       ]
     },
     {
-      "Route": "js/admin.4kof1l10cf.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js",
+      "Route": "js/admin.7pqpi0pxwv.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\admin.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3899,7 +4517,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8906"
+          "Value": "11892"
         },
         {
           "Name": "Content-Type",
@@ -3907,11 +4525,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE=\""
+          "Value": "\"lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:36:17 GMT"
+          "Value": "Thu, 26 Jun 2025 04:48:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3921,7 +4539,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4kof1l10cf"
+          "Value": "7pqpi0pxwv"
         },
         {
           "Name": "label",
@@ -3929,13 +4547,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE="
+          "Value": "sha256-lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno="
         }
       ]
     },
     {
-      "Route": "js/admin.4kof1l10cf.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-4kof1l10cf.gz",
+      "Route": "js/admin.7pqpi0pxwv.js.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-7pqpi0pxwv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3944,7 +4562,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2231"
+          "Value": "2568"
         },
         {
           "Name": "Content-Type",
@@ -3952,11 +4570,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JyPeIt8uNVMc46Q308jBowUBsKRmBa4PkrhToywFFL0=\""
+          "Value": "\"J4yYFg9q1ihC5DEXJCdr+Dks3pglCPXqfIuN5xoIVx4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:36:17 GMT"
+          "Value": "Thu, 26 Jun 2025 04:48:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3974,7 +4592,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4kof1l10cf"
+          "Value": "7pqpi0pxwv"
         },
         {
           "Name": "label",
@@ -3982,18 +4600,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JyPeIt8uNVMc46Q308jBowUBsKRmBa4PkrhToywFFL0="
+          "Value": "sha256-J4yYFg9q1ihC5DEXJCdr+Dks3pglCPXqfIuN5xoIVx4="
         }
       ]
     },
     {
       "Route": "js/admin.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-4kof1l10cf.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-7pqpi0pxwv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000448028674"
+          "Quality": "0.000389256520"
         }
       ],
       "ResponseHeaders": [
@@ -4003,15 +4621,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2231"
+          "Value": "2568"
         },
         {
           "Name": "ETag",
-          "Value": "\"JyPeIt8uNVMc46Q308jBowUBsKRmBa4PkrhToywFFL0=\""
+          "Value": "\"J4yYFg9q1ihC5DEXJCdr+Dks3pglCPXqfIuN5xoIVx4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:36:17 GMT"
+          "Value": "Thu, 26 Jun 2025 04:48:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4031,19 +4649,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE=\""
+          "Value": "W/\"lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE="
+          "Value": "sha256-lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno="
         }
       ]
     },
     {
       "Route": "js/admin.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\admin.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\admin.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4052,7 +4670,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8906"
+          "Value": "11892"
         },
         {
           "Name": "Content-Type",
@@ -4060,11 +4678,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE=\""
+          "Value": "\"lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:36:17 GMT"
+          "Value": "Thu, 26 Jun 2025 04:48:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4074,13 +4692,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7LBEJTlO3+mDrhFN3ZAomiLN2I6TadObQi7Zi6AUGYE="
+          "Value": "sha256-lYpFhv+NLOmgS3OR8o4Es+LLNTaCJXEIeC7FCbjOFno="
         }
       ]
     },
     {
       "Route": "js/admin.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-4kof1l10cf.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\5k0pm6vn40-7pqpi0pxwv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4089,7 +4707,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2231"
+          "Value": "2568"
         },
         {
           "Name": "Content-Type",
@@ -4097,11 +4715,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JyPeIt8uNVMc46Q308jBowUBsKRmBa4PkrhToywFFL0=\""
+          "Value": "\"J4yYFg9q1ihC5DEXJCdr+Dks3pglCPXqfIuN5xoIVx4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:36:17 GMT"
+          "Value": "Thu, 26 Jun 2025 04:48:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4119,13 +4737,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JyPeIt8uNVMc46Q308jBowUBsKRmBa4PkrhToywFFL0="
+          "Value": "sha256-J4yYFg9q1ihC5DEXJCdr+Dks3pglCPXqfIuN5xoIVx4="
         }
       ]
     },
     {
       "Route": "js/BigInteger.min.buqhvpqvcq.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4188,7 +4806,7 @@
     },
     {
       "Route": "js/BigInteger.min.buqhvpqvcq.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4233,7 +4851,7 @@
     },
     {
       "Route": "js/BigInteger.min.buqhvpqvcq.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4286,7 +4904,7 @@
     },
     {
       "Route": "js/BigInteger.min.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4341,7 +4959,7 @@
     },
     {
       "Route": "js/BigInteger.min.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\BigInteger.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4378,7 +4996,7 @@
     },
     {
       "Route": "js/BigInteger.min.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\n9wukperzg-buqhvpqvcq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4423,12 +5041,12 @@
     },
     {
       "Route": "js/script.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-kj6mgja9lq.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-v5nktiau18.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000396039604"
+          "Quality": "0.000395100751"
         }
       ],
       "ResponseHeaders": [
@@ -4438,15 +5056,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "2530"
         },
         {
           "Name": "ETag",
-          "Value": "\"SzRBSExiL5bCl8fSAms9JvevZPk2Q8DVfqf26Y2Ke5s=\""
+          "Value": "\"GohF8vl3Si5B8UksU5+OVEj6AqUVyKaqOLCIJezM7vw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:29:25 GMT"
+          "Value": "Tue, 08 Jul 2025 07:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4466,19 +5084,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0=\""
+          "Value": "W/\"Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0="
+          "Value": "sha256-Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA="
         }
       ]
     },
     {
       "Route": "js/script.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4487,7 +5105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8550"
+          "Value": "8551"
         },
         {
           "Name": "Content-Type",
@@ -4495,11 +5113,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0=\""
+          "Value": "\"Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:29:25 GMT"
+          "Value": "Tue, 08 Jul 2025 07:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4509,13 +5127,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0="
+          "Value": "sha256-Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA="
         }
       ]
     },
     {
       "Route": "js/script.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-kj6mgja9lq.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-v5nktiau18.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4524,7 +5142,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "2530"
         },
         {
           "Name": "Content-Type",
@@ -4532,11 +5150,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SzRBSExiL5bCl8fSAms9JvevZPk2Q8DVfqf26Y2Ke5s=\""
+          "Value": "\"GohF8vl3Si5B8UksU5+OVEj6AqUVyKaqOLCIJezM7vw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:29:25 GMT"
+          "Value": "Tue, 08 Jul 2025 07:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4554,18 +5172,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SzRBSExiL5bCl8fSAms9JvevZPk2Q8DVfqf26Y2Ke5s="
+          "Value": "sha256-GohF8vl3Si5B8UksU5+OVEj6AqUVyKaqOLCIJezM7vw="
         }
       ]
     },
     {
-      "Route": "js/script.kj6mgja9lq.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-kj6mgja9lq.gz",
+      "Route": "js/script.v5nktiau18.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-v5nktiau18.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000396039604"
+          "Quality": "0.000395100751"
         }
       ],
       "ResponseHeaders": [
@@ -4575,15 +5193,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "2530"
         },
         {
           "Name": "ETag",
-          "Value": "\"SzRBSExiL5bCl8fSAms9JvevZPk2Q8DVfqf26Y2Ke5s=\""
+          "Value": "\"GohF8vl3Si5B8UksU5+OVEj6AqUVyKaqOLCIJezM7vw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:29:25 GMT"
+          "Value": "Tue, 08 Jul 2025 07:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4603,13 +5221,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0=\""
+          "Value": "W/\"Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kj6mgja9lq"
+          "Value": "v5nktiau18"
         },
         {
           "Name": "label",
@@ -4617,13 +5235,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0="
+          "Value": "sha256-Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA="
         }
       ]
     },
     {
-      "Route": "js/script.kj6mgja9lq.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\script.js",
+      "Route": "js/script.v5nktiau18.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4632,7 +5250,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8550"
+          "Value": "8551"
         },
         {
           "Name": "Content-Type",
@@ -4640,11 +5258,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0=\""
+          "Value": "\"Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:29:25 GMT"
+          "Value": "Tue, 08 Jul 2025 07:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4654,7 +5272,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kj6mgja9lq"
+          "Value": "v5nktiau18"
         },
         {
           "Name": "label",
@@ -4662,13 +5280,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oOYHAgNPaUt/7wJxmAxxzpqme523fuEWBLfzxliFoD0="
+          "Value": "sha256-Q5eIm+YNku5TJ2JM+iNnLbV4hz5r53rtQXRHWb6NANA="
         }
       ]
     },
     {
-      "Route": "js/script.kj6mgja9lq.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-kj6mgja9lq.gz",
+      "Route": "js/script.v5nktiau18.js.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\unxtxl5ubq-v5nktiau18.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4677,7 +5295,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2524"
+          "Value": "2530"
         },
         {
           "Name": "Content-Type",
@@ -4685,11 +5303,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SzRBSExiL5bCl8fSAms9JvevZPk2Q8DVfqf26Y2Ke5s=\""
+          "Value": "\"GohF8vl3Si5B8UksU5+OVEj6AqUVyKaqOLCIJezM7vw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 24 Jun 2025 07:29:25 GMT"
+          "Value": "Tue, 08 Jul 2025 07:28:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4707,7 +5325,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "kj6mgja9lq"
+          "Value": "v5nktiau18"
         },
         {
           "Name": "label",
@@ -4715,13 +5333,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SzRBSExiL5bCl8fSAms9JvevZPk2Q8DVfqf26Y2Ke5s="
+          "Value": "sha256-GohF8vl3Si5B8UksU5+OVEj6AqUVyKaqOLCIJezM7vw="
         }
       ]
     },
     {
       "Route": "js/sha256.min.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4776,7 +5394,7 @@
     },
     {
       "Route": "js/sha256.min.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4813,7 +5431,7 @@
     },
     {
       "Route": "js/sha256.min.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4858,7 +5476,7 @@
     },
     {
       "Route": "js/sha256.min.p5nfogrn67.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -4921,7 +5539,7 @@
     },
     {
       "Route": "js/sha256.min.p5nfogrn67.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\sha256.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4966,7 +5584,7 @@
     },
     {
       "Route": "js/sha256.min.p5nfogrn67.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\y56j8zpwwl-p5nfogrn67.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5019,7 +5637,7 @@
     },
     {
       "Route": "js/signalr.min.8zb1dpva3y.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5082,7 +5700,7 @@
     },
     {
       "Route": "js/signalr.min.8zb1dpva3y.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5127,7 +5745,7 @@
     },
     {
       "Route": "js/signalr.min.8zb1dpva3y.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5180,7 +5798,7 @@
     },
     {
       "Route": "js/signalr.min.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5235,7 +5853,7 @@
     },
     {
       "Route": "js/signalr.min.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\signalr.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5272,7 +5890,7 @@
     },
     {
       "Route": "js/signalr.min.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\6ntmiopk5f-8zb1dpva3y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5317,7 +5935,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5372,7 +5990,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5409,7 +6027,7 @@
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5454,7 +6072,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5517,7 +6135,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5562,7 +6180,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\nslksyqzop-xtxxf3hu2r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5615,7 +6233,7 @@
     },
     {
       "Route": "js/tailwindcss.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5670,7 +6288,7 @@
     },
     {
       "Route": "js/tailwindcss.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5707,7 +6325,7 @@
     },
     {
       "Route": "js/tailwindcss.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5752,7 +6370,7 @@
     },
     {
       "Route": "js/tailwindcss.vyvjcvm7mo.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -5815,7 +6433,7 @@
     },
     {
       "Route": "js/tailwindcss.vyvjcvm7mo.js",
-      "AssetFile": "C:\\1\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\wwwroot\\js\\tailwindcss.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5860,7 +6478,7 @@
     },
     {
       "Route": "js/tailwindcss.vyvjcvm7mo.js.gz",
-      "AssetFile": "C:\\1\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
+      "AssetFile": "C:\\Users\\vnori\\Desktop\\AnimeGameSite\\obj\\Debug\\net9.0\\compressed\\ds667locri-vyvjcvm7mo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

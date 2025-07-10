@@ -234,5 +234,40 @@ namespace DemoSRP
             command.Parameters.AddWithValue("@createdAt", DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss"));
             return (long)command.ExecuteScalar();
         }
+
+        public List<(long PostId, string Content, string PhotoPaths, string CreatedAt)> GetPosts()
+        {
+            var posts = new List<(long, string, string, string)>();
+            using var connection = new SqliteConnection(_connectionString);
+            connection.Open();
+            var command = connection.CreateCommand();
+            command.CommandText = @"
+                    SELECT PostId, Content, PhotoPaths, CreatedAt
+                    FROM Posts
+                    ORDER BY CreatedAt DESC";
+
+            using var reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                posts.Add((
+                    reader.GetInt64(0),
+                    reader.GetString(1),
+                    reader.GetString(2),
+                    reader.GetString(3)
+                ));
+            }
+            return posts;
+        }
+
+        public void DeletePostsRange()
+        {
+            using var connection = new SqliteConnection(_connectionString);
+            connection.Open();
+            var command = connection.CreateCommand();
+            command.CommandText = @"
+                DELETE FROM Posts
+                WHERE PostId BETWEEN 4 AND 8";
+            command.ExecuteNonQuery();
+        }
     }
 }

@@ -101,5 +101,42 @@ namespace DemoSRP
                 return StatusCode(500, new { Message = "Ошибка при создании поста" });
             }
         }
+
+        [Authorize(AuthenticationSchemes = Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerDefaults.AuthenticationScheme, Roles = "Admin")]
+        [HttpPost("secure/role")]
+        public IActionResult AssignRole([FromBody] AssignRoleModel model)
+        {
+            if (string.IsNullOrWhiteSpace(model.Username) || string.IsNullOrWhiteSpace(model.Role))
+            {
+                return BadRequest(new { Message = "Имя пользователя и роль обязательны." });
+            }
+
+            if (!new[] { "User", "Donator", "Admin" }.Contains(model.Role))
+            {
+                return BadRequest(new { Message = "Недопустимая роль. Разрешены: User, Donator, Admin." });
+            }
+
+            try
+            {
+                if (!_database.UserExists(model.Username))
+                {
+                    return BadRequest(new { Message = $"Пользователь {model.Username} не найден." });
+                }
+
+                _database.UpdateUserRole(model.Username, model.Role);
+                return Ok(new { Message = $"Роль {model.Role} успешно назначена пользователю {model.Username}." });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка при назначении роли: {ex.Message}");
+                return StatusCode(500, new { Message = "Ошибка при назначении роли" });
+            }
+        }
+    }
+
+    public class AssignRoleModel
+    {
+        public string Username { get; set; }
+        public string Role { get; set; }
     }
 }

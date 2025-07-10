@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Security.Cryptography.X509Certificates;
 
 string exeDir = AppDomain.CurrentDomain.BaseDirectory;
-DirectoryInfo dir = new DirectoryInfo(exeDir);
+DirectoryInfo? dir = new DirectoryInfo(exeDir);
 
 // Ищем папку "AnimeGameSite" в родительских директориях
 while (dir != null && dir.Name != "AnimeGameSite")
@@ -72,12 +72,12 @@ builder.WebHost.ConfigureKestrel(options =>
 {
     options.ListenAnyIP(5000, listenOptions =>
     {
-        listenOptions.Protocols = Microsoft.AspNetCore.Server.Kestrel.Core.HttpProtocols.Http2;
+        listenOptions.Protocols = Microsoft.AspNetCore.Server.Kestrel.Core.HttpProtocols.Http1;
     });
     var currentDirectory = Directory.GetCurrentDirectory();
     options.ListenAnyIP(5001, listenOptions =>
     {
-        listenOptions.Protocols = Microsoft.AspNetCore.Server.Kestrel.Core.HttpProtocols.Http2;
+        listenOptions.Protocols = Microsoft.AspNetCore.Server.Kestrel.Core.HttpProtocols.Http1;
         listenOptions.UseHttps(adapterOptions =>
         {
             adapterOptions.ServerCertificate = X509CertificateLoader.LoadPkcs12FromFile(
@@ -90,7 +90,7 @@ builder.WebHost.ConfigureKestrel(options =>
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseStaticFiles(new StaticFileOptions
 {
@@ -106,6 +106,7 @@ app.UseStaticFiles(new StaticFileOptions
             ctx.Context.Response.Headers.CacheControl = "no-cache, no-store, must-revalidate";
             ctx.Context.Response.Headers.Pragma = "no-cache";
             ctx.Context.Response.Headers.Expires = "0";
+            ctx.Context.Response.ContentType = "application/javascript; charset=utf-8";
         }
         if (ctx.File.Name.EndsWith(".html"))
         {
@@ -149,3 +150,5 @@ app.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Inde
 app.MapHub<ConceptArtHub>("/conceptArtHub");
 
 app.Run();
+
+// lt --port 5000 --subdomain quiet-planet

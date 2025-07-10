@@ -74,6 +74,7 @@ class SrpClient {
 async function register() {
     const username = document.getElementById("registerUsername").value;
     const password = document.getElementById("registerPassword").value;
+
     const client = new SrpClient(password);
     client.salt = generateRandomBigInt(128);
     const x = computeSha256(client.salt.toString() + password);
